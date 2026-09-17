@@ -1,0 +1,686 @@
+Folder PATH listing for volume Windows
+Volume serial number is 000000FC 04C1:9923
+C:.
+¦   tree.txt
+¦   
++---Prompts
+¦   +---claude
+¦   ¦       chain_of_thought__A.txt
+¦   ¦       chain_of_thought__B.txt
+¦   ¦       chain_of_thought__C.txt
+¦   ¦       chain_of_thought__O.txt
+¦   ¦       chain_of_thought__V.txt
+¦   ¦       few_shot__A.txt
+¦   ¦       few_shot__B.txt
+¦   ¦       few_shot__C.txt
+¦   ¦       few_shot__O.txt
+¦   ¦       few_shot__V.txt
+¦   ¦       role_prompted__A.txt
+¦   ¦       role_prompted__B.txt
+¦   ¦       role_prompted__C.txt
+¦   ¦       role_prompted__O.txt
+¦   ¦       role_prompted__V.txt
+¦   ¦       schema_constrained__A.txt
+¦   ¦       schema_constrained__B.txt
+¦   ¦       schema_constrained__C.txt
+¦   ¦       schema_constrained__O.txt
+¦   ¦       schema_constrained__V.txt
+¦   ¦       zero_shot__A.txt
+¦   ¦       zero_shot__B.txt
+¦   ¦       zero_shot__C.txt
+¦   ¦       zero_shot__O.txt
+¦   ¦       zero_shot__V.txt
+¦   ¦       
+¦   +---gemini
+¦   ¦       chain_of_thought__A.txt
+¦   ¦       chain_of_thought__B.txt
+¦   ¦       chain_of_thought__C.txt
+¦   ¦       chain_of_thought__O.txt
+¦   ¦       chain_of_thought__V.txt
+¦   ¦       few_shot__A.txt
+¦   ¦       few_shot__B.txt
+¦   ¦       few_shot__C.txt
+¦   ¦       few_shot__O.txt
+¦   ¦       few_shot__V.txt
+¦   ¦       role_prompted__A.txt
+¦   ¦       role_prompted__B.txt
+¦   ¦       role_prompted__C.txt
+¦   ¦       role_prompted__O.txt
+¦   ¦       role_prompted__V.txt
+¦   ¦       schema_constrained__A.txt
+¦   ¦       schema_constrained__B.txt
+¦   ¦       schema_constrained__C.txt
+¦   ¦       schema_constrained__O.txt
+¦   ¦       schema_constrained__V.txt
+¦   ¦       zero_shot__A.txt
+¦   ¦       zero_shot__B.txt
+¦   ¦       zero_shot__C.txt
+¦   ¦       zero_shot__O.txt
+¦   ¦       zero_shot__V.txt
+¦   ¦       
+¦   +---llama
+¦   ¦       chain_of_thought__A.txt
+¦   ¦       chain_of_thought__B.txt
+¦   ¦       chain_of_thought__C.txt
+¦   ¦       chain_of_thought__O.txt
+¦   ¦       chain_of_thought__V.txt
+¦   ¦       few_shot__A.txt
+¦   ¦       few_shot__B.txt
+¦   ¦       few_shot__C.txt
+¦   ¦       few_shot__O.txt
+¦   ¦       few_shot__V.txt
+¦   ¦       role_prompted__A.txt
+¦   ¦       role_prompted__B.txt
+¦   ¦       role_prompted__C.txt
+¦   ¦       role_prompted__O.txt
+¦   ¦       role_prompted__V.txt
+¦   ¦       schema_constrained__A.txt
+¦   ¦       schema_constrained__B.txt
+¦   ¦       schema_constrained__C.txt
+¦   ¦       schema_constrained__O.txt
+¦   ¦       schema_constrained__V.txt
+¦   ¦       zero_shot__A.txt
+¦   ¦       zero_shot__B.txt
+¦   ¦       zero_shot__C.txt
+¦   ¦       zero_shot__O.txt
+¦   ¦       zero_shot__V.txt
+¦   ¦       
+¦   +---openai
+¦   ¦       chain_of_thought__A.txt
+¦   ¦       chain_of_thought__B.txt
+¦   ¦       chain_of_thought__C.txt
+¦   ¦       chain_of_thought__O.txt
+¦   ¦       chain_of_thought__V.txt
+¦   ¦       few_shot__A.txt
+¦   ¦       few_shot__B.txt
+¦   ¦       few_shot__C.txt
+¦   ¦       few_shot__O.txt
+¦   ¦       few_shot__V.txt
+¦   ¦       role_prompted__A.txt
+¦   ¦       role_prompted__B.txt
+¦   ¦       role_prompted__C.txt
+¦   ¦       role_prompted__O.txt
+¦   ¦       role_prompted__V.txt
+¦   ¦       schema_constrained__A.txt
+¦   ¦       schema_constrained__B.txt
+¦   ¦       schema_constrained__C.txt
+¦   ¦       schema_constrained__O.txt
+¦   ¦       schema_constrained__V.txt
+¦   ¦       zero_shot__A.txt
+¦   ¦       zero_shot__B.txt
+¦   ¦       zero_shot__C.txt
+¦   ¦       zero_shot__O.txt
+¦   ¦       zero_shot__V.txt
+¦   ¦       
+¦   +---qwen
+¦           chain_of_thought__A.txt
+¦           chain_of_thought__B.txt
+¦           chain_of_thought__C.txt
+¦           chain_of_thought__O.txt
+¦           chain_of_thought__V.txt
+¦           few_shot__A.txt
+¦           few_shot__B.txt
+¦           few_shot__C.txt
+¦           few_shot__O.txt
+¦           few_shot__V.txt
+¦           role_prompted__A.txt
+¦           role_prompted__B.txt
+¦           role_prompted__C.txt
+¦           role_prompted__O.txt
+¦           role_prompted__V.txt
+¦           schema_constrained__A.txt
+¦           schema_constrained__B.txt
+¦           schema_constrained__C.txt
+¦           schema_constrained__O.txt
+¦           schema_constrained__V.txt
+¦           zero_shot__A.txt
+¦           zero_shot__B.txt
+¦           zero_shot__C.txt
+¦           zero_shot__O.txt
+¦           zero_shot__V.txt
+¦           
++---Videos
+    +---Kling 3.0
+    ¦   +---ChatGPT
+    ¦   ¦       Kling_ChatGPT_COT_A.mp4
+    ¦   ¦       Kling_ChatGPT_COT_B.mp4
+    ¦   ¦       Kling_ChatGPT_COT_C.mp4
+    ¦   ¦       Kling_ChatGPT_COT_O.mp4
+    ¦   ¦       Kling_ChatGPT_COT_V.mp4
+    ¦   ¦       Kling_ChatGPT_FS_A.mp4
+    ¦   ¦       Kling_ChatGPT_FS_B.mp4
+    ¦   ¦       Kling_ChatGPT_FS_C.mp4
+    ¦   ¦       Kling_ChatGPT_FS_O.mp4
+    ¦   ¦       Kling_ChatGPT_FS_V.mp4
+    ¦   ¦       Kling_ChatGPT_RP_A.mp4
+    ¦   ¦       Kling_ChatGPT_RP_B.mp4
+    ¦   ¦       Kling_ChatGPT_RP_C.mp4
+    ¦   ¦       Kling_ChatGPT_RP_O.mp4
+    ¦   ¦       Kling_ChatGPT_RP_V.mp4
+    ¦   ¦       Kling_ChatGPT_SC_A.mp4
+    ¦   ¦       Kling_ChatGPT_SC_B.mp4
+    ¦   ¦       Kling_ChatGPT_SC_C.mp4
+    ¦   ¦       Kling_ChatGPT_SC_O.mp4
+    ¦   ¦       Kling_ChatGPT_SC_V.mp4
+    ¦   ¦       Kling_ChatGPT_ZS_A.mp4
+    ¦   ¦       Kling_ChatGPT_ZS_B.mp4
+    ¦   ¦       Kling_ChatGPT_ZS_C.mp4
+    ¦   ¦       Kling_ChatGPT_ZS_O.mp4
+    ¦   ¦       Kling_ChatGPT_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Claude
+    ¦   ¦       Kling_Claude_COT_A.mp4
+    ¦   ¦       Kling_Claude_COT_B.mp4
+    ¦   ¦       Kling_Claude_COT_C.mp4
+    ¦   ¦       Kling_Claude_COT_O.mp4
+    ¦   ¦       Kling_Claude_COT_V.mp4
+    ¦   ¦       Kling_Claude_FS_A.mp4
+    ¦   ¦       Kling_Claude_FS_B.mp4
+    ¦   ¦       Kling_Claude_FS_C.mp4
+    ¦   ¦       Kling_Claude_FS_O.mp4
+    ¦   ¦       Kling_Claude_FS_V.mp4
+    ¦   ¦       Kling_Claude_RP_A.mp4
+    ¦   ¦       Kling_Claude_RP_B.mp4
+    ¦   ¦       Kling_Claude_RP_C.mp4
+    ¦   ¦       Kling_Claude_RP_O.mp4
+    ¦   ¦       Kling_Claude_RP_V.mp4
+    ¦   ¦       Kling_Claude_SC_A.mp4
+    ¦   ¦       Kling_Claude_SC_B.mp4
+    ¦   ¦       Kling_Claude_SC_C.mp4
+    ¦   ¦       Kling_Claude_SC_O.mp4
+    ¦   ¦       Kling_Claude_SC_V.mp4
+    ¦   ¦       Kling_Claude_ZS_A.mp4
+    ¦   ¦       Kling_Claude_ZS_B.mp4
+    ¦   ¦       Kling_Claude_ZS_C.mp4
+    ¦   ¦       Kling_Claude_ZS_O.mp4
+    ¦   ¦       Kling_Claude_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Gemini
+    ¦   ¦       Kling_Gemini_COT_A.mp4
+    ¦   ¦       Kling_Gemini_COT_B.mp4
+    ¦   ¦       Kling_Gemini_COT_C.mp4
+    ¦   ¦       Kling_Gemini_COT_O.mp4
+    ¦   ¦       Kling_Gemini_COT_V.mp4
+    ¦   ¦       Kling_Gemini_FS_A.mp4
+    ¦   ¦       Kling_Gemini_FS_B.mp4
+    ¦   ¦       Kling_Gemini_FS_C.mp4
+    ¦   ¦       Kling_Gemini_FS_O.mp4
+    ¦   ¦       Kling_Gemini_FS_V.mp4
+    ¦   ¦       Kling_Gemini_RP_A.mp4
+    ¦   ¦       Kling_Gemini_RP_B.mp4
+    ¦   ¦       Kling_Gemini_RP_C.mp4
+    ¦   ¦       Kling_Gemini_RP_O.mp4
+    ¦   ¦       Kling_Gemini_RP_V.mp4
+    ¦   ¦       Kling_Gemini_SC_A.mp4
+    ¦   ¦       Kling_Gemini_SC_B.mp4
+    ¦   ¦       Kling_Gemini_SC_C.mp4
+    ¦   ¦       Kling_Gemini_SC_O.mp4
+    ¦   ¦       Kling_Gemini_SC_V.mp4
+    ¦   ¦       Kling_Gemini_ZS_A.mp4
+    ¦   ¦       Kling_Gemini_ZS_B.mp4
+    ¦   ¦       Kling_Gemini_ZS_C.mp4
+    ¦   ¦       Kling_Gemini_ZS_O.mp4
+    ¦   ¦       Kling_Gemini_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Llama
+    ¦   ¦       Kling_Llama_COT_A.mp4
+    ¦   ¦       Kling_Llama_COT_B.mp4
+    ¦   ¦       Kling_Llama_COT_C.mp4
+    ¦   ¦       Kling_Llama_COT_O.mp4
+    ¦   ¦       Kling_Llama_COT_V.mp4
+    ¦   ¦       Kling_Llama_FS_A.mp4
+    ¦   ¦       Kling_Llama_FS_B.mp4
+    ¦   ¦       Kling_Llama_FS_C.mp4
+    ¦   ¦       Kling_Llama_FS_O.mp4
+    ¦   ¦       Kling_Llama_FS_V.mp4
+    ¦   ¦       Kling_Llama_RP_A.mp4
+    ¦   ¦       Kling_Llama_RP_B.mp4
+    ¦   ¦       Kling_Llama_RP_C.mp4
+    ¦   ¦       Kling_Llama_RP_O.mp4
+    ¦   ¦       Kling_Llama_RP_V.mp4
+    ¦   ¦       Kling_Llama_SC_A.mp4
+    ¦   ¦       Kling_Llama_SC_B.mp4
+    ¦   ¦       Kling_Llama_SC_C.mp4
+    ¦   ¦       Kling_Llama_SC_O.mp4
+    ¦   ¦       Kling_Llama_SC_V.mp4
+    ¦   ¦       Kling_Llama_ZS_A.mp4
+    ¦   ¦       Kling_Llama_ZS_B.mp4
+    ¦   ¦       Kling_Llama_ZS_C.mp4
+    ¦   ¦       Kling_Llama_ZS_O.mp4
+    ¦   ¦       Kling_Llama_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Qwen
+    ¦           Kling_Qwen_COT_A.mp4
+    ¦           Kling_Qwen_COT_B.mp4
+    ¦           Kling_Qwen_COT_C.mp4
+    ¦           Kling_Qwen_COT_O.mp4
+    ¦           Kling_Qwen_COT_V.mp4
+    ¦           Kling_Qwen_FS_A.mp4
+    ¦           Kling_Qwen_FS_B.mp4
+    ¦           Kling_Qwen_FS_C.mp4
+    ¦           Kling_Qwen_FS_O.mp4
+    ¦           Kling_Qwen_FS_V.mp4
+    ¦           Kling_Qwen_RP_A.mp4
+    ¦           Kling_Qwen_RP_B.mp4
+    ¦           Kling_Qwen_RP_C.mp4
+    ¦           Kling_Qwen_RP_O.mp4
+    ¦           Kling_Qwen_RP_V.mp4
+    ¦           Kling_Qwen_SC_A.mp4
+    ¦           Kling_Qwen_SC_B.mp4
+    ¦           Kling_Qwen_SC_C.mp4
+    ¦           Kling_Qwen_SC_O.mp4
+    ¦           Kling_Qwen_SC_V.mp4
+    ¦           Kling_Qwen_ZS_A.mp4
+    ¦           Kling_Qwen_ZS_B.mp4
+    ¦           Kling_Qwen_ZS_C.mp4
+    ¦           Kling_Qwen_ZS_O.mp4
+    ¦           Kling_Qwen_ZS_V.mp4
+    ¦           
+    +---Seedance
+    ¦   +---ChatGPT
+    ¦   ¦       Seedance_ChatGPT_COT_A.mp4
+    ¦   ¦       Seedance_ChatGPT_COT_B.mp4
+    ¦   ¦       Seedance_ChatGPT_COT_C.mp4
+    ¦   ¦       Seedance_ChatGPT_COT_O.mp4
+    ¦   ¦       Seedance_ChatGPT_COT_V.mp4
+    ¦   ¦       Seedance_ChatGPT_FS_A.mp4
+    ¦   ¦       Seedance_ChatGPT_FS_B.mp4
+    ¦   ¦       Seedance_ChatGPT_FS_C.mp4
+    ¦   ¦       Seedance_ChatGPT_FS_O.mp4
+    ¦   ¦       Seedance_ChatGPT_FS_V.mp4
+    ¦   ¦       Seedance_ChatGPT_RP_A.mp4
+    ¦   ¦       Seedance_ChatGPT_RP_B.mp4
+    ¦   ¦       Seedance_ChatGPT_RP_C.mp4
+    ¦   ¦       Seedance_ChatGPT_RP_O.mp4
+    ¦   ¦       Seedance_ChatGPT_RP_V.mp4
+    ¦   ¦       Seedance_ChatGPT_SC_A.mp4
+    ¦   ¦       Seedance_ChatGPT_SC_B.mp4
+    ¦   ¦       Seedance_ChatGPT_SC_C.mp4
+    ¦   ¦       Seedance_ChatGPT_SC_O.mp4
+    ¦   ¦       Seedance_ChatGPT_SC_V.mp4
+    ¦   ¦       Seedance_ChatGPT_ZS_A.mp4
+    ¦   ¦       Seedance_ChatGPT_ZS_B.mp4
+    ¦   ¦       Seedance_ChatGPT_ZS_C.mp4
+    ¦   ¦       Seedance_ChatGPT_ZS_O.mp4
+    ¦   ¦       Seedance_ChatGPT_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Claude
+    ¦   ¦       Seedance_Claude_COT_A.mp4
+    ¦   ¦       Seedance_Claude_COT_B.mp4
+    ¦   ¦       Seedance_Claude_COT_C.mp4
+    ¦   ¦       Seedance_Claude_COT_O.mp4
+    ¦   ¦       Seedance_Claude_COT_V.mp4
+    ¦   ¦       Seedance_Claude_FS_A.mp4
+    ¦   ¦       Seedance_Claude_FS_B.mp4
+    ¦   ¦       Seedance_Claude_FS_C.mp4
+    ¦   ¦       Seedance_Claude_FS_O.mp4
+    ¦   ¦       Seedance_Claude_FS_V.mp4
+    ¦   ¦       Seedance_Claude_RP_A.mp4
+    ¦   ¦       Seedance_Claude_RP_B.mp4
+    ¦   ¦       Seedance_Claude_RP_C.mp4
+    ¦   ¦       Seedance_Claude_RP_O.mp4
+    ¦   ¦       Seedance_Claude_RP_V.mp4
+    ¦   ¦       Seedance_Claude_SC_A.mp4
+    ¦   ¦       Seedance_Claude_SC_B.mp4
+    ¦   ¦       Seedance_Claude_SC_C.mp4
+    ¦   ¦       Seedance_Claude_SC_O.mp4
+    ¦   ¦       Seedance_Claude_SC_V.mp4
+    ¦   ¦       Seedance_Claude_ZS_A.mp4
+    ¦   ¦       Seedance_Claude_ZS_B.mp4
+    ¦   ¦       Seedance_Claude_ZS_C.mp4
+    ¦   ¦       Seedance_Claude_ZS_O.mp4
+    ¦   ¦       Seedance_Claude_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Gemini
+    ¦   ¦       Seedance_Gemini_COT_A.mp4
+    ¦   ¦       Seedance_Gemini_COT_B.mp4
+    ¦   ¦       Seedance_Gemini_COT_C.mp4
+    ¦   ¦       Seedance_Gemini_COT_O.mp4
+    ¦   ¦       Seedance_Gemini_COT_V.mp4
+    ¦   ¦       Seedance_Gemini_FS_A.mp4
+    ¦   ¦       Seedance_Gemini_FS_B.mp4
+    ¦   ¦       Seedance_Gemini_FS_C.mp4
+    ¦   ¦       Seedance_Gemini_FS_O.mp4
+    ¦   ¦       Seedance_Gemini_FS_V.mp4
+    ¦   ¦       Seedance_Gemini_RP_A.mp4
+    ¦   ¦       Seedance_Gemini_RP_B.mp4
+    ¦   ¦       Seedance_Gemini_RP_C.mp4
+    ¦   ¦       Seedance_Gemini_RP_O.mp4
+    ¦   ¦       Seedance_Gemini_RP_V.mp4
+    ¦   ¦       Seedance_Gemini_SC_A.mp4
+    ¦   ¦       Seedance_Gemini_SC_B.mp4
+    ¦   ¦       Seedance_Gemini_SC_C.mp4
+    ¦   ¦       Seedance_Gemini_SC_O.mp4
+    ¦   ¦       Seedance_Gemini_SC_V.mp4
+    ¦   ¦       Seedance_Gemini_ZS_A.mp4
+    ¦   ¦       Seedance_Gemini_ZS_B.mp4
+    ¦   ¦       Seedance_Gemini_ZS_C.mp4
+    ¦   ¦       Seedance_Gemini_ZS_O.mp4
+    ¦   ¦       Seedance_Gemini_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Llama
+    ¦   ¦       Seedance_Llama_COT_A.mp4
+    ¦   ¦       Seedance_Llama_COT_B.mp4
+    ¦   ¦       Seedance_Llama_COT_C.mp4
+    ¦   ¦       Seedance_Llama_COT_O.mp4
+    ¦   ¦       Seedance_Llama_COT_V.mp4
+    ¦   ¦       Seedance_Llama_FS_A.mp4
+    ¦   ¦       Seedance_Llama_FS_B.mp4
+    ¦   ¦       Seedance_Llama_FS_C.mp4
+    ¦   ¦       Seedance_Llama_FS_O.mp4
+    ¦   ¦       Seedance_Llama_FS_V.mp4
+    ¦   ¦       Seedance_Llama_RP_A.mp4
+    ¦   ¦       Seedance_Llama_RP_B.mp4
+    ¦   ¦       Seedance_Llama_RP_C.mp4
+    ¦   ¦       Seedance_Llama_RP_O.mp4
+    ¦   ¦       Seedance_Llama_RP_V.mp4
+    ¦   ¦       Seedance_Llama_SC_A.mp4
+    ¦   ¦       Seedance_Llama_SC_B.mp4
+    ¦   ¦       Seedance_Llama_SC_C.mp4
+    ¦   ¦       Seedance_Llama_SC_O.mp4
+    ¦   ¦       Seedance_Llama_SC_V.mp4
+    ¦   ¦       Seedance_Llama_ZS_A.mp4
+    ¦   ¦       Seedance_Llama_ZS_B.mp4
+    ¦   ¦       Seedance_Llama_ZS_C.mp4
+    ¦   ¦       Seedance_Llama_ZS_O.mp4
+    ¦   ¦       Seedance_Llama_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Qwen
+    ¦           Seedance_Qwen_COT_A.mp4
+    ¦           Seedance_Qwen_COT_B.mp4
+    ¦           Seedance_Qwen_COT_C.mp4
+    ¦           Seedance_Qwen_COT_O.mp4
+    ¦           Seedance_Qwen_COT_V.mp4
+    ¦           Seedance_Qwen_FS_A.mp4
+    ¦           Seedance_Qwen_FS_B.mp4
+    ¦           Seedance_Qwen_FS_C.mp4
+    ¦           Seedance_Qwen_FS_O.mp4
+    ¦           Seedance_Qwen_FS_V.mp4
+    ¦           Seedance_Qwen_RP_A.mp4
+    ¦           Seedance_Qwen_RP_B.mp4
+    ¦           Seedance_Qwen_RP_C.mp4
+    ¦           Seedance_Qwen_RP_O.mp4
+    ¦           Seedance_Qwen_RP_V.mp4
+    ¦           Seedance_Qwen_SC_A.mp4
+    ¦           Seedance_Qwen_SC_B.mp4
+    ¦           Seedance_Qwen_SC_C.mp4
+    ¦           Seedance_Qwen_SC_O.mp4
+    ¦           Seedance_Qwen_SC_V.mp4
+    ¦           Seedance_Qwen_ZS_A.mp4
+    ¦           Seedance_Qwen_ZS_B.mp4
+    ¦           Seedance_Qwen_ZS_C.mp4
+    ¦           Seedance_Qwen_ZS_O.mp4
+    ¦           Seedance_Qwen_ZS_V.mp4
+    ¦           
+    +---Veo
+    ¦   +---ChatGPT
+    ¦   ¦       Veo_ChatGPT_COT_A.mp4
+    ¦   ¦       Veo_ChatGPT_COT_B.mp4
+    ¦   ¦       Veo_ChatGPT_COT_C.mp4
+    ¦   ¦       Veo_ChatGPT_COT_O.mp4
+    ¦   ¦       Veo_ChatGPT_COT_V.mp4
+    ¦   ¦       Veo_ChatGPT_FS_A.mp4
+    ¦   ¦       Veo_ChatGPT_FS_B.mp4
+    ¦   ¦       Veo_ChatGPT_FS_C.mp4
+    ¦   ¦       Veo_ChatGPT_FS_O.mp4
+    ¦   ¦       Veo_ChatGPT_FS_V.mp4
+    ¦   ¦       Veo_ChatGPT_RP_A.mp4
+    ¦   ¦       Veo_ChatGPT_RP_B.mp4
+    ¦   ¦       Veo_ChatGPT_RP_C.mp4
+    ¦   ¦       Veo_ChatGPT_RP_O.mp4
+    ¦   ¦       Veo_ChatGPT_RP_V.mp4
+    ¦   ¦       Veo_ChatGPT_SC_A.mp4
+    ¦   ¦       Veo_ChatGPT_SC_B.mp4
+    ¦   ¦       Veo_ChatGPT_SC_C.mp4
+    ¦   ¦       Veo_ChatGPT_SC_O.mp4
+    ¦   ¦       Veo_ChatGPT_SC_V.mp4
+    ¦   ¦       Veo_ChatGPT_ZS_A.mp4
+    ¦   ¦       Veo_ChatGPT_ZS_B.mp4
+    ¦   ¦       Veo_ChatGPT_ZS_C.mp4
+    ¦   ¦       Veo_ChatGPT_ZS_O.mp4
+    ¦   ¦       Veo_ChatGPT_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Claude
+    ¦   ¦       Veo_Claude_COT_A.mp4
+    ¦   ¦       Veo_Claude_COT_B.mp4
+    ¦   ¦       Veo_Claude_COT_C.mp4
+    ¦   ¦       Veo_Claude_COT_O.mp4
+    ¦   ¦       Veo_Claude_COT_V.mp4
+    ¦   ¦       Veo_Claude_FS_A.mp4
+    ¦   ¦       Veo_Claude_FS_B.mp4
+    ¦   ¦       Veo_Claude_FS_C.mp4
+    ¦   ¦       Veo_Claude_FS_O.mp4
+    ¦   ¦       Veo_Claude_FS_V.mp4
+    ¦   ¦       Veo_Claude_RP_A.mp4
+    ¦   ¦       Veo_Claude_RP_B.mp4
+    ¦   ¦       Veo_Claude_RP_C.mp4
+    ¦   ¦       Veo_Claude_RP_O.mp4
+    ¦   ¦       Veo_Claude_RP_V.mp4
+    ¦   ¦       Veo_Claude_SC_A.mp4
+    ¦   ¦       Veo_Claude_SC_B.mp4
+    ¦   ¦       Veo_Claude_SC_C.mp4
+    ¦   ¦       Veo_Claude_SC_O.mp4
+    ¦   ¦       Veo_Claude_SC_V.mp4
+    ¦   ¦       Veo_Claude_ZS_A.mp4
+    ¦   ¦       Veo_Claude_ZS_B.mp4
+    ¦   ¦       Veo_Claude_ZS_C.mp4
+    ¦   ¦       Veo_Claude_ZS_O.mp4
+    ¦   ¦       Veo_Claude_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Gemini
+    ¦   ¦       Veo_Gemini_COT_A.mp4
+    ¦   ¦       Veo_Gemini_COT_B.mp4
+    ¦   ¦       Veo_Gemini_COT_C.mp4
+    ¦   ¦       Veo_Gemini_COT_O.mp4
+    ¦   ¦       Veo_Gemini_COT_V.mp4
+    ¦   ¦       Veo_Gemini_FS_A.mp4
+    ¦   ¦       Veo_Gemini_FS_B.mp4
+    ¦   ¦       Veo_Gemini_FS_C.mp4
+    ¦   ¦       Veo_Gemini_FS_O.mp4
+    ¦   ¦       Veo_Gemini_FS_V.mp4
+    ¦   ¦       Veo_Gemini_RP_A.mp4
+    ¦   ¦       Veo_Gemini_RP_B.mp4
+    ¦   ¦       Veo_Gemini_RP_C.mp4
+    ¦   ¦       Veo_Gemini_RP_O.mp4
+    ¦   ¦       Veo_Gemini_RP_V.mp4
+    ¦   ¦       Veo_Gemini_SC_A.mp4
+    ¦   ¦       Veo_Gemini_SC_B.mp4
+    ¦   ¦       Veo_Gemini_SC_C.mp4
+    ¦   ¦       Veo_Gemini_SC_O.mp4
+    ¦   ¦       Veo_Gemini_SC_V.mp4
+    ¦   ¦       Veo_Gemini_ZS_A.mp4
+    ¦   ¦       Veo_Gemini_ZS_B.mp4
+    ¦   ¦       Veo_Gemini_ZS_C.mp4
+    ¦   ¦       Veo_Gemini_ZS_O.mp4
+    ¦   ¦       Veo_Gemini_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Llama
+    ¦   ¦       Veo_Llama_COT_A.mp4
+    ¦   ¦       Veo_Llama_COT_B.mp4
+    ¦   ¦       Veo_Llama_COT_C.mp4
+    ¦   ¦       Veo_Llama_COT_O.mp4
+    ¦   ¦       Veo_Llama_COT_V.mp4
+    ¦   ¦       Veo_Llama_FS_A.mp4
+    ¦   ¦       Veo_Llama_FS_B.mp4
+    ¦   ¦       Veo_Llama_FS_C.mp4
+    ¦   ¦       Veo_Llama_FS_O.mp4
+    ¦   ¦       Veo_Llama_FS_V.mp4
+    ¦   ¦       Veo_Llama_RP_A.mp4
+    ¦   ¦       Veo_Llama_RP_B.mp4
+    ¦   ¦       Veo_Llama_RP_C.mp4
+    ¦   ¦       Veo_Llama_RP_O.mp4
+    ¦   ¦       Veo_Llama_RP_V.mp4
+    ¦   ¦       Veo_Llama_SC_A.mp4
+    ¦   ¦       Veo_Llama_SC_B.mp4
+    ¦   ¦       Veo_Llama_SC_C.mp4
+    ¦   ¦       Veo_Llama_SC_O.mp4
+    ¦   ¦       Veo_Llama_SC_V.mp4
+    ¦   ¦       Veo_Llama_ZS_A.mp4
+    ¦   ¦       Veo_Llama_ZS_B.mp4
+    ¦   ¦       Veo_Llama_ZS_C.mp4
+    ¦   ¦       Veo_Llama_ZS_O.mp4
+    ¦   ¦       Veo_Llama_ZS_V.mp4
+    ¦   ¦       
+    ¦   +---Qwen
+    ¦           Veo_Qwen_COT_A.mp4
+    ¦           Veo_Qwen_COT_B.mp4
+    ¦           Veo_Qwen_COT_C.mp4
+    ¦           Veo_Qwen_COT_O.mp4
+    ¦           Veo_Qwen_COT_V.mp4
+    ¦           Veo_Qwen_FS_A.mp4
+    ¦           Veo_Qwen_FS_B.mp4
+    ¦           Veo_Qwen_FS_C.mp4
+    ¦           Veo_Qwen_FS_O.mp4
+    ¦           Veo_Qwen_FS_V.mp4
+    ¦           Veo_Qwen_RP_A.mp4
+    ¦           Veo_Qwen_RP_B.mp4
+    ¦           Veo_Qwen_RP_C.mp4
+    ¦           Veo_Qwen_RP_O.mp4
+    ¦           Veo_Qwen_RP_V.mp4
+    ¦           Veo_Qwen_SC_A.mp4
+    ¦           Veo_Qwen_SC_B.mp4
+    ¦           Veo_Qwen_SC_C.mp4
+    ¦           Veo_Qwen_SC_O.mp4
+    ¦           Veo_Qwen_SC_V.mp4
+    ¦           Veo_Qwen_ZS_A.mp4
+    ¦           Veo_Qwen_ZS_B.mp4
+    ¦           Veo_Qwen_ZS_C.mp4
+    ¦           Veo_Qwen_ZS_O.mp4
+    ¦           Veo_Qwen_ZS_V.mp4
+    ¦           
+    +---Wan
+        +---ChatGPT
+        ¦       wan_chatgpt_COT_A.mp4
+        ¦       wan_chatgpt_COT_B.mp4
+        ¦       wan_chatgpt_COT_C.mp4
+        ¦       wan_chatgpt_COT_O.mp4
+        ¦       wan_chatgpt_COT_V.mp4
+        ¦       wan_chatgpt_FS_A.mp4
+        ¦       wan_chatgpt_FS_B.mp4
+        ¦       wan_chatgpt_FS_C.mp4
+        ¦       wan_chatgpt_FS_O.mp4
+        ¦       wan_chatgpt_FS_V.mp4
+        ¦       wan_chatgpt_ROLE_A.mp4
+        ¦       wan_chatgpt_ROLE_B.mp4
+        ¦       wan_chatgpt_ROLE_C.mp4
+        ¦       wan_chatgpt_ROLE_O.mp4
+        ¦       wan_chatgpt_ROLE_V.mp4
+        ¦       wan_chatgpt_SC_A.mp4
+        ¦       wan_chatgpt_SC_B.mp4
+        ¦       wan_chatgpt_SC_C.mp4
+        ¦       wan_chatgpt_SC_O.mp4
+        ¦       wan_chatgpt_SC_V.mp4
+        ¦       wan_chatgpt_ZS_A.mp4
+        ¦       wan_chatgpt_ZS_B.mp4
+        ¦       wan_chatgpt_ZS_C.mp4
+        ¦       wan_chatgpt_ZS_O.mp4
+        ¦       wan_chatgpt_ZS_V.mp4
+        ¦       
+        +---Claude
+        ¦       wan_claude_COT_A.mp4
+        ¦       wan_claude_COT_B.mp4
+        ¦       wan_claude_COT_C.mp4
+        ¦       wan_claude_COT_O.mp4
+        ¦       wan_claude_COT_V.mp4
+        ¦       wan_claude_FS_A.mp4
+        ¦       wan_claude_FS_B.mp4
+        ¦       wan_claude_FS_C.mp4
+        ¦       wan_claude_FS_O.mp4
+        ¦       wan_claude_FS_V.mp4
+        ¦       wan_claude_ROLE_A.mp4
+        ¦       wan_claude_ROLE_B.mp4
+        ¦       wan_claude_ROLE_C.mp4
+        ¦       wan_claude_ROLE_O.mp4
+        ¦       wan_claude_ROLE_V.mp4
+        ¦       wan_claude_SC_A.mp4
+        ¦       wan_claude_SC_B.mp4
+        ¦       wan_claude_SC_C.mp4
+        ¦       wan_claude_SC_O.mp4
+        ¦       wan_claude_SC_V.mp4
+        ¦       wan_claude_ZS_A.mp4
+        ¦       wan_claude_ZS_B.mp4
+        ¦       wan_claude_ZS_C.mp4
+        ¦       wan_claude_ZS_O.mp4
+        ¦       wan_claude_ZS_V.mp4
+        ¦       
+        +---Gemini
+        ¦       wan_gemini_COT_A.mp4
+        ¦       wan_gemini_COT_B.mp4
+        ¦       wan_gemini_COT_C.mp4
+        ¦       wan_gemini_COT_O.mp4
+        ¦       wan_gemini_COT_V.mp4
+        ¦       wan_gemini_FS_A.mp4
+        ¦       wan_gemini_FS_B.mp4
+        ¦       wan_gemini_FS_C.mp4
+        ¦       wan_gemini_FS_O.mp4
+        ¦       wan_gemini_FS_V.mp4
+        ¦       wan_gemini_ROLE_A.mp4
+        ¦       wan_gemini_ROLE_B.mp4
+        ¦       wan_gemini_ROLE_C.mp4
+        ¦       wan_gemini_ROLE_O.mp4
+        ¦       wan_gemini_ROLE_V.mp4
+        ¦       wan_gemini_SC_A.mp4
+        ¦       wan_gemini_SC_B.mp4
+        ¦       wan_gemini_SC_C.mp4
+        ¦       wan_gemini_SC_O.mp4
+        ¦       wan_gemini_SC_V.mp4
+        ¦       wan_gemini_ZS_A.mp4
+        ¦       wan_gemini_ZS_B.mp4
+        ¦       wan_gemini_ZS_C.mp4
+        ¦       wan_gemini_ZS_O.mp4
+        ¦       wan_gemini_ZS_V.mp4
+        ¦       
+        +---Llama
+        ¦       wan_llama_COT_A.mp4
+        ¦       wan_llama_COT_B.mp4
+        ¦       wan_llama_COT_C.mp4
+        ¦       wan_llama_COT_O.mp4
+        ¦       wan_llama_COT_V.mp4
+        ¦       wan_llama_FS_A.mp4
+        ¦       wan_llama_FS_B.mp4
+        ¦       wan_llama_FS_C.mp4
+        ¦       wan_llama_FS_O.mp4
+        ¦       wan_llama_FS_V.mp4
+        ¦       wan_llama_ROLE_A.mp4
+        ¦       wan_llama_ROLE_B.mp4
+        ¦       wan_llama_ROLE_C.mp4
+        ¦       wan_llama_ROLE_O.mp4
+        ¦       wan_llama_ROLE_V.mp4
+        ¦       wan_llama_SC_A.mp4
+        ¦       wan_llama_SC_B.mp4
+        ¦       wan_llama_SC_C.mp4
+        ¦       wan_llama_SC_O.mp4
+        ¦       wan_llama_SC_V.mp4
+        ¦       wan_llama_ZS_A.mp4
+        ¦       wan_llama_ZS_B.mp4
+        ¦       wan_llama_ZS_C.mp4
+        ¦       wan_llama_ZS_O.mp4
+        ¦       wan_llama_ZS_V.mp4
+        ¦       
+        +---Qwen
+                wan_qwen_COT_A.mp4
+                wan_qwen_COT_B.mp4
+                wan_qwen_COT_C.mp4
+                wan_qwen_COT_O.mp4
+                wan_qwen_COT_V.mp4
+                wan_qwen_FS_A.mp4
+                wan_qwen_FS_B.mp4
+                wan_qwen_FS_C.mp4
+                wan_qwen_FS_O.mp4
+                wan_qwen_FS_V.mp4
+                wan_qwen_ROLE_A.mp4
+                wan_qwen_ROLE_B.mp4
+                wan_qwen_ROLE_C.mp4
+                wan_qwen_ROLE_O.mp4
+                wan_qwen_ROLE_V.mp4
+                wan_qwen_SC_A.mp4
+                wan_qwen_SC_B.mp4
+                wan_qwen_SC_C.mp4
+                wan_qwen_SC_O.mp4
+                wan_qwen_SC_V.mp4
+                wan_qwen_ZS_A.mp4
+                wan_qwen_ZS_B.mp4
+                wan_qwen_ZS_C.mp4
+                wan_qwen_ZS_O.mp4
+                wan_qwen_ZS_V.mp4
+                
