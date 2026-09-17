@@ -1,0 +1,4 @@
+cd C:\Users\User\Desktop\FYP ASL\site
+pip install fastapi uvicorn
+python build_db.py
+python app.py
