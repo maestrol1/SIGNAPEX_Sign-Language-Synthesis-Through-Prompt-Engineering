@@ -1,5 +1,7 @@
 # SignApex — A Prompt-to-Sign Corpus
 
+<img width="2816" height="1536" alt="signapex_logo png" src="https://github.com/user-attachments/assets/13b3a9c4-3d30-4c02-a5b3-83dd0a588b11" />
+
 A local-only web app for browsing the 500 generated ASL videos with their
 Track 2 (human) and Track 3 (machine) recognition scores, full-text search
 over the prompt text, and an aggregate statistics view. Built for the viva demo.
