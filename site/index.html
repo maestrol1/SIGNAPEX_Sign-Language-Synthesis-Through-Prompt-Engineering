@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SignApex — A Prompt-to-Sign Corpus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0e1525; --indigo:#16308f; --indigo-2:#2a4bc4; --soft:#eef2fc;
+    --soft-2:#f7f9ff; --line:#e2e7f3; --muted:#5e6b85; --card:#ffffff;
+    --good:#0f9d58; --bad:#e0463b; --bg:#fbfcff;
+    --shadow:0 1px 2px rgba(20,40,120,.06),0 8px 24px rgba(20,40,120,.06);
+    --disp:'Space Grotesk',system-ui,sans-serif;
+    --body:'Inter',system-ui,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:var(--body);color:var(--ink);background:var(--bg);
+       font-size:15px;line-height:1.55}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+  /* ---------- hero / header ---------- */
+  .hero{position:relative;background:
+        radial-gradient(1200px 380px at 50% -120px,var(--soft) 0%,transparent 70%),
+        linear-gradient(180deg,#ffffff 0%,var(--bg) 100%);
+        border-bottom:1px solid var(--line);overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;
+        background-image:radial-gradient(var(--line) 1px,transparent 1px);
+        background-size:22px 22px;opacity:.5;mask:radial-gradient(700px 300px at 50% 0,#000,transparent 75%)}
+  .hero-inner{max-width:1180px;margin:0 auto;padding:34px 24px 26px;position:relative;
+        display:flex;flex-direction:column;align-items:center;text-align:center}
+  .logo{width:min(560px,82vw);height:auto;filter:drop-shadow(0 6px 18px rgba(20,40,120,.14));
+        animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .tagline{margin:14px 0 2px;font-family:var(--disp);font-weight:500;font-size:17px;
+        letter-spacing:.2px;color:var(--indigo)}
+  .subtag{margin:0;color:var(--muted);font-size:13.5px;max-width:620px}
+  .subtag b{color:var(--ink);font-weight:600}
+
+  /* ---------- nav tabs ---------- */
+  .tabbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.85);
+        backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line)}
+  .tabbar-inner{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;gap:4px}
+  .tab{appearance:none;border:none;background:none;font-family:var(--disp);font-weight:500;
+        font-size:14px;color:var(--muted);padding:14px 14px 12px;cursor:pointer;
+        border-bottom:2.5px solid transparent;transition:.15s}
+  .tab:hover{color:var(--ink)}
+  .tab.active{color:var(--indigo);border-bottom-color:var(--indigo)}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:26px 24px 80px}
+
+  /* ---------- letter keys (the entry point) ---------- */
+  .eyebrow{font-family:var(--disp);font-size:11.5px;font-weight:600;letter-spacing:1.5px;
+        text-transform:uppercase;color:var(--indigo-2);margin:2px 0 12px;display:flex;
+        align-items:center;gap:9px}
+  .eyebrow::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,var(--line),transparent)}
+  .keys{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+  .key{position:relative;width:104px;height:116px;border:1px solid var(--line);border-radius:18px;
+        background:linear-gradient(180deg,#fff,var(--soft-2));box-shadow:var(--shadow);
+        cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        transition:transform .15s cubic-bezier(.2,.7,.2,1),box-shadow .15s,border-color .15s}
+  .key:hover{transform:translateY(-4px);border-color:var(--indigo-2);
+        box-shadow:0 10px 30px rgba(22,48,143,.16)}
+  .key .glyph{font-family:var(--disp);font-weight:700;font-size:46px;color:var(--indigo);line-height:1}
+  .key .n{font-size:11px;color:var(--muted);margin-top:7px;font-weight:500}
+  .key.active{background:linear-gradient(180deg,var(--indigo),var(--indigo-2));border-color:var(--indigo)}
+  .key.active .glyph{color:#fff}
+  .key.active .n{color:#dbe3ff}
+
+  /* ---------- secondary filters ---------- */
+  .filters{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;
+        background:var(--card);border:1px solid var(--line);border-radius:16px;
+        padding:16px 18px;margin:18px 0 6px;box-shadow:var(--shadow)}
+  .field{display:flex;flex-direction:column;gap:5px}
+  .field label{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+        letter-spacing:.5px;font-family:var(--disp)}
+  select,input[type=text]{padding:9px 11px;border:1px solid var(--line);border-radius:10px;
+        font-size:14px;font-family:var(--body);background:#fff;color:var(--ink);min-width:158px}
+  select:focus,input:focus{outline:2px solid var(--indigo-2);outline-offset:1px;border-color:transparent}
+  .field.search{flex:1;min-width:250px}
+  input[type=text]{width:100%}
+  .btn{font-family:var(--disp);font-weight:600;padding:10px 18px;border:none;border-radius:10px;
+        background:var(--indigo);color:#fff;cursor:pointer;font-size:14px;transition:.15s}
+  .btn:hover{background:var(--indigo-2)}
+  .btn.ghost{background:#fff;color:var(--indigo);border:1px solid var(--line)}
+  .btn.ghost:hover{border-color:var(--indigo-2)}
+
+  .meta{font-size:13px;color:var(--muted);margin:16px 2px 14px;display:flex;
+        align-items:center;gap:8px}
+  .chip{display:inline-block;background:var(--soft);color:var(--indigo);font-weight:600;
+        font-size:12px;padding:2px 9px;border-radius:20px}
+
+  /* ---------- empty state ---------- */
+  .empty{text-align:center;padding:64px 24px;color:var(--muted)}
+  .empty .big{font-family:var(--disp);font-weight:600;font-size:21px;color:var(--ink);margin-bottom:6px}
+  .empty .hint{font-size:14px;max-width:440px;margin:0 auto}
+  .empty svg{width:54px;height:54px;color:var(--indigo-2);opacity:.85;margin-bottom:16px}
+
+  /* ---------- grid / cards ---------- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+        display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .15s,box-shadow .15s}
+  .card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(22,48,143,.12)}
+  .card video,.card .novid{width:100%;aspect-ratio:16/10;background:#0b1020;display:block}
+  .novid{display:flex;align-items:center;justify-content:center;color:#7e8baa;font-size:12px;
+        font-family:var(--disp)}
+  .card-body{padding:13px 15px;display:flex;flex-direction:column;gap:11px}
+  .tagrow{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;background:var(--soft);
+        color:var(--indigo);font-family:var(--disp)}
+  .tag.letter{background:var(--indigo);color:#fff}
+  .scores{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .scorebox{border:1px solid var(--line);border-radius:11px;padding:9px 11px;background:var(--soft-2)}
+  .scorebox h4{margin:0 0 6px;font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;
+        color:var(--muted);font-family:var(--disp);font-weight:600}
+  .srow{display:flex;justify-content:space-between;font-size:12.5px;margin:3px 0}
+  .srow b{font-weight:600;font-family:var(--disp)}
+  .ok{color:var(--good);font-weight:700}
+  .no{color:var(--bad);font-weight:700}
+  .notes{font-size:12.5px;color:var(--muted);font-style:italic;border-top:1px dashed var(--line);
+        padding-top:9px}
+  details.prompt summary{cursor:pointer;font-size:12px;color:var(--indigo);font-weight:600;
+        font-family:var(--disp);list-style:none}
+  details.prompt summary::-webkit-details-marker{display:none}
+  details.prompt summary::before{content:"▸ ";color:var(--indigo-2)}
+  details.prompt[open] summary::before{content:"▾ "}
+  details.prompt pre{white-space:pre-wrap;font-size:11.5px;background:#fff;border:1px solid var(--line);
+        border-radius:10px;padding:10px;margin:7px 0 0;max-height:210px;overflow:auto;line-height:1.5}
+  mark{background:#ffe49b;padding:0 2px;border-radius:3px}
+
+  /* ---------- stats ---------- */
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);
+        border-radius:14px;overflow:hidden;font-size:13.5px;box-shadow:var(--shadow);margin-bottom:8px}
+  th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line)}
+  tr:last-child td{border-bottom:none}
+  th.num{text-align:right}
+  th{background:var(--soft);color:var(--indigo);font-weight:600;font-size:11.5px;
+        text-transform:uppercase;letter-spacing:.4px;font-family:var(--disp)}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--disp)}
+  h3.sec{font-family:var(--disp);font-weight:600;margin:26px 0 10px;font-size:15px;color:var(--ink)}
+  h3.sec span{color:var(--muted);font-weight:400;font-size:13px}
+
+  /* ---------- stats sections ---------- */
+  .stat-section{margin-bottom:14px}
+  .stat-section+.stat-section{margin-top:40px;padding-top:8px;border-top:2px solid var(--line)}
+  .stat-head{margin-bottom:6px}
+  .stat-badge{display:inline-block;font-family:var(--disp);font-weight:600;font-size:11px;
+        letter-spacing:.7px;text-transform:uppercase;padding:5px 12px;border-radius:20px;margin-bottom:12px}
+  .stat-badge.human{background:var(--indigo);color:#fff}
+  .stat-badge.machine{background:#0d6b53;color:#fff}
+  .stat-head h2{font-family:var(--disp);font-weight:700;font-size:20px;margin:0 0 6px;color:var(--ink)}
+  .stat-head p{margin:0 0 4px;color:#36425c;font-size:14px;max-width:720px;line-height:1.6}
+  .stat-head b{color:var(--ink)} .stat-head i{color:var(--indigo);font-style:italic}
+  .legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;
+        background:var(--soft-2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0 4px}
+  .leg{font-size:12.5px;color:var(--muted);line-height:1.5}
+  .leg b{display:block;font-family:var(--disp);color:var(--indigo);font-size:12.5px;font-weight:600;margin-bottom:1px}
+
+  /* ---------- stats sub-tabs + controls ---------- */
+  .subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+  .subtab{font-family:var(--disp);font-weight:500;font-size:13.5px;padding:9px 16px;border-radius:24px;
+        border:1px solid var(--line);background:#fff;color:var(--muted);cursor:pointer;transition:.15s}
+  .subtab:hover{color:var(--ink);border-color:var(--indigo-2)}
+  .subtab.active{background:var(--indigo);color:#fff;border-color:var(--indigo)}
+  .breakdown{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+  .bd-label{font-family:var(--disp);font-size:11px;font-weight:600;letter-spacing:.5px;
+        text-transform:uppercase;color:var(--muted)}
+  .seg{display:inline-flex;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:3px}
+  .seg-btn{font-family:var(--disp);font-size:13px;font-weight:500;padding:6px 14px;border:none;
+        background:none;color:var(--muted);cursor:pointer;border-radius:7px;transition:.12s}
+  .seg-btn:hover{color:var(--ink)}
+  .seg-btn.active{background:#fff;color:var(--indigo);box-shadow:0 1px 3px rgba(20,40,120,.12)}
+
+  .stat-badge{display:inline-block;font-family:var(--disp);font-weight:600;font-size:11px;
+        letter-spacing:.7px;text-transform:uppercase;padding:5px 12px;border-radius:20px;margin-bottom:12px}
+  .stat-badge.human{background:var(--indigo);color:#fff}
+  .stat-badge.machine{background:#0d6b53;color:#fff}
+  .stat-badge.compare{background:#7a3ea8;color:#fff}
+  .stat-h2{font-family:var(--disp);font-weight:700;font-size:20px;margin:0 0 6px;color:var(--ink)}
+  .stat-p{margin:0 0 18px;color:#36425c;font-size:14px;max-width:760px;line-height:1.6}
+  .stat-p b{color:var(--ink)} .stat-p i{color:var(--indigo);font-style:italic}
+
+  #stat-body table{margin-bottom:22px}
+  .chartcard{background:var(--card);border:1px solid var(--line);border-radius:16px;
+        padding:18px 18px 14px;box-shadow:var(--shadow);margin-bottom:22px}
+  .chart-title{font-family:var(--disp);font-weight:600;font-size:13.5px;color:var(--ink);margin-bottom:12px}
+  .chartcard canvas{width:100%;height:auto;display:block}
+  .legend-row{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--muted)}
+  .lg-item{display:inline-flex;align-items:center;gap:6px}
+  .lg-item i{width:12px;height:12px;border-radius:3px;display:inline-block}
+
+  footer{border-top:1px solid var(--line);margin-top:40px;padding:20px 24px;text-align:center;
+        color:var(--muted);font-size:12.5px}
+  footer b{color:var(--indigo);font-family:var(--disp)}
+
+  /* ---------- about / disclaimer ---------- */
+  .note-card{max-width:760px;background:var(--card);border:1px solid var(--line);
+        border-radius:18px;padding:30px 34px;box-shadow:var(--shadow);margin-top:4px}
+  .note-flag{display:inline-block;font-family:var(--disp);font-weight:600;font-size:11px;
+        letter-spacing:.8px;text-transform:uppercase;color:#fff;background:var(--indigo);
+        padding:5px 12px;border-radius:20px;margin-bottom:16px}
+  .note-card h2{font-family:var(--disp);font-weight:700;font-size:23px;margin:0 0 14px;color:var(--ink)}
+  .note-card h3{font-family:var(--disp);font-weight:600;font-size:15px;margin:22px 0 7px;color:var(--indigo)}
+  .note-card p{margin:0 0 12px;color:#36425c;font-size:14.5px;line-height:1.65}
+  .note-card b{color:var(--ink);font-weight:600}
+  .note-tip{background:var(--soft);border:1px solid var(--line);border-left:3px solid var(--indigo);
+        border-radius:10px;padding:14px 16px;margin:20px 0;font-size:14px;color:#2c3650}
+  .note-fine{font-size:13px!important;color:var(--muted)!important;border-top:1px dashed var(--line);
+        padding-top:14px;margin-top:18px!important}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-inner">
+    <img class="logo" src="/assets/signapex_logo_t.png" alt="SignApex">
+    <p class="tagline">A Prompt-to-Sign Corpus</p>
+    <p class="subtag">500 AI-generated ASL fingerspelling videos, each paired with the
+       prompt that produced it and scored by <b>human</b> and <b>machine</b> recognition.</p>
+  </div>
+</div>
+
+<div class="tabbar">
+  <div class="tabbar-inner">
+    <button class="tab active" data-tab="browse" onclick="switchTab('browse')">Browse corpus</button>
+    <button class="tab" data-tab="stats" onclick="switchTab('stats')">Statistics</button>
+    <button class="tab" data-tab="about" onclick="switchTab('about')">About the scores</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <!-- BROWSE -->
+  <div id="browse">
+    <div class="eyebrow">Start with a letter</div>
+    <div class="keys" id="keys"></div>
+
+    <div class="filters">
+      <div class="field"><label>Generator</label><select id="f-generator"></select></div>
+      <div class="field"><label>VLM</label><select id="f-vlm"></select></div>
+      <div class="field"><label>Strategy</label><select id="f-strategy"></select></div>
+      <div class="field"><label>Sort by</label><select id="f-sort">
+        <option value="">Default (letter / generator)</option>
+        <option value="human_desc" selected>Human accuracy — best first</option>
+        <option value="human_asc">Human accuracy — worst first</option>
+        <option value="machine_desc">Machine accuracy — best first</option>
+        <option value="machine_asc">Machine accuracy — worst first</option>
+        <option value="combined_desc">Combined (human + machine) — best first</option>
+        <option value="combined_asc">Combined (human + machine) — worst first</option>
+      </select></div>
+      <div class="field search"><label>Search prompt text</label>
+        <input type="text" id="f-q" placeholder="e.g. thumb AND curved"
+               onkeydown="if(event.key==='Enter')load()"></div>
+      <button class="btn" onclick="load()">Search</button>
+      <button class="btn ghost" onclick="resetAll()">Reset</button>
+    </div>
+
+    <div class="meta" id="meta"></div>
+    <div id="result"></div>
+  </div>
+
+  <!-- STATS -->
+  <div id="stats" style="display:none">
+    <div class="subtabs">
+      <button class="subtab active" data-sub="human" onclick="switchSub('human')">Human · Track 2</button>
+      <button class="subtab" data-sub="machine" onclick="switchSub('machine')">Machine · Track 3</button>
+      <button class="subtab" data-sub="compare" onclick="switchSub('compare')">Track 2 vs Track 3</button>
+    </div>
+    <div class="breakdown">
+      <span class="bd-label">Break down by</span>
+      <div class="seg" id="bd-seg">
+        <button class="seg-btn active" data-bd="by_generator" onclick="setBreakdown('by_generator')">Generator</button>
+        <button class="seg-btn" data-bd="by_strategy" onclick="setBreakdown('by_strategy')">Strategy</button>
+        <button class="seg-btn" data-bd="by_letter" onclick="setBreakdown('by_letter')">Letter</button>
+      </div>
+    </div>
+    <div id="stat-body"></div>
+  </div>
+
+  <!-- ABOUT THE SCORES -->
+  <div id="about" style="display:none">
+    <div class="note-card">
+      <div class="note-flag">Read this before trusting a single score</div>
+      <h2>How to read the recognition scores</h2>
+      <p>Every video here carries two kinds of score: a <b>machine</b> reading
+        (from MediaPipe and SigLIP2) and a <b>human</b> reading. They don't always
+        agree — and where they disagree, the human is usually closer to the truth.</p>
+
+      <h3>The machine ticks can be misleading</h3>
+      <p>A green check from MediaPipe or SigLIP2 means the model's best guess matched
+        the target letter. It does <b>not</b> mean the hand in the video actually forms
+        that letter clearly. These models were built to label photos of real, correct
+        handshapes, so when they meet a blurry, melting, or malformed AI-generated hand
+        they still pick <i>some</i> letter — and sometimes that guess lands on the right
+        one by luck. A “correct” machine score can sit on top of a video that no person
+        would read as that letter.</p>
+
+      <h3>Why we kept the machine scores anyway</h3>
+      <p>They're still useful as a rough, repeatable signal across all 500 videos — no
+        human could stay perfectly consistent over that many clips. But they work best
+        as a <b>screen, not a verdict</b>. Treat them as “worth a closer look,” then let
+        the video and the human rating decide.</p>
+
+      <h3>What the human scores add</h3>
+      <p>The human rating (Track 2) records what a real viewer actually saw: which letter
+        they read, how close the handshape looked, and overall sign quality. This is the
+        part that answers the real research question — <i>can a person recognise the
+        sign?</i> — which is what fingerspelling is ultimately for.</p>
+
+      <div class="note-tip">
+        <b>Rule of thumb:</b> when the green tick and your own eyes disagree, believe your
+        eyes. Open the video, read the prompt, and check the human rating before drawing
+        any conclusion about a single clip.
+      </div>
+
+      <p class="note-fine">One more caveat for the statistics: the human ratings come from
+        a single rater, so very small differences between strategies or generators sit
+        within normal rating noise and shouldn't be over-read. The large gaps (for example,
+        how much better straight-finger letters fare than curved ones) are the trustworthy
+        part.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <b>SignApex</b> · Prompt-to-Sign corpus · local research build · 5 letters × 4 generators × 5 VLMs × 5 strategies
+</footer>
+
+<script>
+const STRAT_LABEL={zero_shot:'Zero-shot',role_prompted:'Role-prompted',
+  chain_of_thought:'Chain-of-thought',schema_constrained:'Schema-constrained',few_shot:'Few-shot'};
+let FACETS=null, ACTIVE_LETTER='', HAS_SELECTION=false;
+
+const title=s=>s?s.charAt(0).toUpperCase()+s.slice(1):s;
+const pct=x=>x==null?'—':(x*100).toFixed(0)+'%';
+const fix=(x,n=2)=>x==null?'—':Number(x).toFixed(n);
+const esc=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+async function init(){
+  FACETS=await (await fetch('/api/facets')).json();
+  const kc=document.getElementById('keys');
+  Object.keys(FACETS.letter).sort().forEach(L=>{
+    const k=document.createElement('button');
+    k.className='key'; k.dataset.letter=L;
+    k.innerHTML=`<span class="glyph">${L}</span><span class="n">${FACETS.letter[L]} videos</span>`;
+    k.onclick=()=>{ACTIVE_LETTER=(ACTIVE_LETTER===L?'':L);paintKeys();load();};
+    kc.appendChild(k);
+  });
+  fillSelect('f-generator',FACETS.generator,'All generators');
+  fillSelect('f-vlm',FACETS.vlm,'All VLMs');
+  fillSelect('f-strategy',orderObj(FACETS.strategy,FACETS.strategy_order),'All strategies',true);
+  document.getElementById('f-sort').onchange=()=>{ if(anyFilter()) load(); };
+  showEmpty();           // <-- nothing loads until a selection is made
+}
+function orderObj(o,order){const r={};(order||Object.keys(o)).forEach(k=>r[k]=o[k]);return r;}
+function fillSelect(id,obj,allLabel,strat){
+  const s=document.getElementById(id);
+  s.innerHTML='<option value="">'+allLabel+'</option>';
+  Object.keys(obj).forEach(k=>{
+    s.innerHTML+=`<option value="${k}">${(strat?(STRAT_LABEL[k]||k):title(k))} (${obj[k]})</option>`;
+  });
+  s.onchange=()=>load();
+}
+function paintKeys(){document.querySelectorAll('.key').forEach(k=>
+  k.classList.toggle('active',k.dataset.letter===ACTIVE_LETTER));}
+
+function anyFilter(){
+  return ACTIVE_LETTER ||
+    ['f-generator','f-vlm','f-strategy','f-q'].some(id=>document.getElementById(id).value.trim());
+}
+function showEmpty(){
+  document.getElementById('meta').textContent='';
+  document.getElementById('result').innerHTML=`
+    <div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+           stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+      <div class="big">Pick a letter to begin</div>
+      <div class="hint">Choose one of the five fingerspelled letters above — or set a generator,
+        VLM, strategy, or prompt search — and the matching videos load here.</div>
+    </div>`;
+}
+function resetAll(){
+  ACTIVE_LETTER='';paintKeys();
+  ['f-generator','f-vlm','f-strategy','f-q'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('f-sort').value='human_desc';
+  showEmpty();
+}
+
+async function load(){
+  if(!anyFilter()){showEmpty();return;}      // gate: never load the whole corpus
+  const p=new URLSearchParams();
+  if(ACTIVE_LETTER)p.set('letter',ACTIVE_LETTER);
+  ['generator','vlm','strategy','q'].forEach(k=>{
+    const v=document.getElementById('f-'+k).value.trim();if(v)p.set(k,v);});
+  const sort=document.getElementById('f-sort').value;
+  if(sort)p.set('sort',sort);
+  const meta=document.getElementById('meta');
+  meta.innerHTML='<span class="chip">loading…</span>';
+  let data;
+  try{data=await (await fetch('/api/videos?'+p.toString())).json();}
+  catch(e){meta.textContent='Error: '+e;return;}
+  const q=document.getElementById('f-q').value.trim();
+  let bits=[`<span class="chip">${data.count} video${data.count===1?'':'s'}</span>`];
+  if(ACTIVE_LETTER)bits.push(`letter <b>${ACTIVE_LETTER}</b>`);
+  if(q)bits.push(`matching “${esc(q)}”`);
+  const sortLabel={human_desc:'human accuracy (best first)',human_asc:'human accuracy (worst first)',
+    machine_desc:'machine accuracy (best first)',machine_asc:'machine accuracy (worst first)',
+    combined_desc:'combined accuracy (best first)',combined_asc:'combined accuracy (worst first)'}[sort];
+  if(sortLabel)bits.push(`sorted by ${sortLabel}`);
+  meta.innerHTML=bits.join('&nbsp; · &nbsp;');
+  render(data.results,q);
+}
+
+const badge=c=>c===1?'<span class="ok">✓</span>':c===0?'<span class="no">✗</span>':'—';
+function hl(text,q){
+  if(!q)return esc(text);
+  const terms=q.replace(/[^\w\s]/g,' ').split(/\s+/).filter(t=>t.length>2&&!['and','or','not'].includes(t.toLowerCase()));
+  let out=esc(text);
+  terms.forEach(t=>{out=out.replace(new RegExp('('+t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'),'<mark>$1</mark>');});
+  return out;
+}
+function render(rows,q){
+  const g=document.getElementById('result');
+  if(!rows.length){g.innerHTML=`<div class="empty"><div class="big">No matches</div>
+    <div class="hint">Nothing in the corpus fits these filters. Try removing one, or reset.</div></div>`;return;}
+  g.innerHTML='<div class="grid">'+rows.map(r=>{
+    const vid=r.video_path?`<video controls preload="none" src="/video/${r.id}"></video>`
+                          :`<div class="novid">video not linked on disk</div>`;
+    const prompt=r.prompt_text?`<details class="prompt"><summary>Prompt text</summary><pre>${hl(r.prompt_text,q)}</pre></details>`:'';
+    const notes=r.h_notes?`<div class="notes">“${esc(r.h_notes)}”</div>`:'';
+    return `<div class="card">${vid}<div class="card-body">
+      <div class="tagrow">
+        <span class="tag letter">Letter ${r.letter}</span>
+        <span class="tag">${title(r.generator)}</span>
+        <span class="tag">${title(r.vlm)}</span>
+        <span class="tag">${STRAT_LABEL[r.strategy]||r.strategy}</span>
+      </div>
+      <div class="scores">
+        <div class="scorebox"><h4>Machine · Track 3</h4>
+          <div class="srow"><span>MediaPipe</span><b>${r.mp_pred||'—'} ${badge(r.mp_correct)}</b></div>
+          <div class="srow"><span>SigLIP2</span><b>${r.sg_pred_restricted||'—'} ${badge(r.sg_correct_restricted)}</b></div>
+          <div class="srow"><span>Landmarks</span><b>${r.landmarks_found?'yes':'no'}</b></div>
+        </div>
+        <div class="scorebox"><h4>Human · Track 2</h4>
+          <div class="srow"><span>Read as</span><b>${r.h_recognized_as||'—'} ${badge(r.h_recog_correct)}</b></div>
+          <div class="srow"><span>Handshape</span><b>${fix(r.h_handshape,1)}</b></div>
+          <div class="srow"><span>Quality</span><b>${r.h_quality??'—'}/5</b></div>
+        </div>
+      </div>${notes}${prompt}</div></div>`;
+  }).join('')+'</div>';
+}
+
+async function switchTab(t){
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.tab===t));
+  document.getElementById('browse').style.display=t==='browse'?'block':'none';
+  document.getElementById('stats').style.display=t==='stats'?'block':'none';
+  document.getElementById('about').style.display=t==='about'?'block':'none';
+  if(t==='stats')loadStats();
+}
+function statsReset(){}
+const t2=s=>STRAT_LABEL[s]||title(s);
+let STATS=null, SCATTER=null, SUB='human', BD='by_generator';
+
+async function loadStats(){
+  if(!STATS){
+    STATS=await (await fetch('/api/stats')).json();
+    SCATTER=await (await fetch('/api/scatter')).json();
+  }
+  renderStat();
+}
+function switchSub(x){SUB=x;document.querySelectorAll('.subtab').forEach(b=>
+  b.classList.toggle('active',b.dataset.sub===x));renderStat();}
+function setBreakdown(x){BD=x;document.querySelectorAll('.seg-btn').forEach(b=>
+  b.classList.toggle('active',b.dataset.bd===x));renderStat();}
+
+// ---- table builders ----
+function humanTable(rows,label){
+  let h=`<table><tr><th>${label}</th><th class="num">Recognition</th><th class="num">Handshape</th>
+     <th class="num">Sign quality</th><th class="num">Prompt-following</th><th class="num">n</th></tr>`;
+  h+=rows.map(r=>`<tr><td>${t2(r.k)}</td><td class="num">${pct(r.human)}</td>
+     <td class="num">${fix(r.handshape,2)}</td><td class="num">${fix(r.quality,2)}</td>
+     <td class="num">${fix(r.prompt_following,2)}</td><td class="num">${r.n}</td></tr>`).join('');
+  return h+'</table>';
+}
+function machineTable(rows,label){
+  let h=`<table><tr><th>${label}</th><th class="num">MediaPipe</th><th class="num">SigLIP2 (restricted)</th>
+     <th class="num">SigLIP2 (raw)</th><th class="num">n</th></tr>`;
+  h+=rows.map(r=>`<tr><td>${t2(r.k)}</td><td class="num">${pct(r.mp)}</td>
+     <td class="num">${pct(r.sg)}</td><td class="num">${pct(r.sg_raw)}</td><td class="num">${r.n}</td></tr>`).join('');
+  return h+'</table>';
+}
+function compareTable(rows,label){
+  let h=`<table><tr><th>${label}</th><th class="num">Human</th><th class="num">MediaPipe</th>
+     <th class="num">SigLIP2 (restr)</th><th class="num">SigLIP2 (raw)</th><th class="num">n</th></tr>`;
+  h+=rows.map(r=>`<tr><td>${t2(r.k)}</td><td class="num">${pct(r.human)}</td>
+     <td class="num">${pct(r.mp)}</td><td class="num">${pct(r.sg)}</td>
+     <td class="num">${pct(r.sg_raw)}</td><td class="num">${r.n}</td></tr>`).join('');
+  return h+'</table>';
+}
+const bdLabel=()=>({by_generator:'Generator',by_strategy:'Strategy',by_letter:'Letter'}[BD]);
+
+function renderStat(){
+  const rows=STATS[BD], body=document.getElementById('stat-body'), L=bdLabel();
+  if(SUB==='human'){
+    body.innerHTML=`
+      <span class="stat-badge human">Human evaluation · Track 2</span>
+      <h2 class="stat-h2">What a person saw</h2>
+      <p class="stat-p">A single rater watched all 500 videos. These criteria answer the core
+         question — <b>can a person recognise the sign?</b> Scores are means on a 1–5 scale,
+         except Recognition which is % of videos read as the correct letter.</p>
+      ${humanTable(rows,L)}
+      <div class="chartcard"><div class="chart-title">Human recognition accuracy by ${L.toLowerCase()}</div>
+        <canvas id="cv" width="880" height="340"></canvas>
+        <div class="legend-row" id="lgd"></div></div>`;
+    drawBars(rows,[['human','Recognition','pct']],true);
+  }else if(SUB==='machine'){
+    body.innerHTML=`
+      <span class="stat-badge machine">Machine evaluation · Track 3</span>
+      <h2 class="stat-h2">What the recognition models predicted</h2>
+      <p class="stat-p">Two automatic recognisers ran on every video. They report only whether the
+         predicted letter matched the target — <b>no handshape score</b>, that is a human judgement.
+         See <i>About the scores</i> for why these ticks can mislead.</p>
+      ${machineTable(rows,L)}
+      <div class="chartcard"><div class="chart-title">Machine accuracy by ${L.toLowerCase()}</div>
+        <canvas id="cv" width="880" height="340"></canvas>
+        <div class="legend-row" id="lgd"></div></div>`;
+    drawBars(rows,[['mp','MediaPipe','pct'],['sg','SigLIP2 (restr)','pct'],['sg_raw','SigLIP2 (raw)','pct']]);
+  }else{
+    body.innerHTML=`
+      <span class="stat-badge compare">Track 2 vs Track 3</span>
+      <h2 class="stat-h2">Where human and machine agree — and don't</h2>
+      <p class="stat-p">The bars put human recognition next to the machine scores for each ${L.toLowerCase()}.
+         The scatter plots one point per (generator × VLM × strategy) cell: <b>human accuracy on the
+         X-axis, machine on the Y</b>. Points far from the diagonal are cells where the two disagree —
+         often a model scoring a video "correct" that no person recognised.</p>
+      ${compareTable(rows,L)}
+      <div class="chartcard"><div class="chart-title">Human vs machine accuracy by ${L.toLowerCase()}</div>
+        <canvas id="cv" width="880" height="340"></canvas>
+        <div class="legend-row" id="lgd"></div></div>
+      <div class="chartcard"><div class="chart-title">Per-cell divergence · human (x) vs MediaPipe (y)</div>
+        <canvas id="sc" width="880" height="440"></canvas>
+        <div class="legend-row"><span class="lg-item"><i style="background:var(--indigo)"></i>each dot = one generator×VLM×strategy cell</span>
+          <span class="lg-item"><i style="background:#c9d2ea"></i>diagonal = perfect agreement</span></div></div>`;
+    drawBars(rows,[['human','Human','pct'],['mp','MediaPipe','pct'],['sg','SigLIP2 (restr)','pct']]);
+    drawScatter();
+  }
+}
+
+// ---- canvas grouped bar chart ----
+const SERIES_COLORS=['#16308f','#2a4bc4','#5a79e0','#0d6b53'];
+function drawBars(rows,series,single){
+  const cv=document.getElementById('cv'); if(!cv)return;
+  const ctx=cv.getContext('2d'), W=cv.width, H=cv.height;
+  const padL=48,padR=14,padT=14,padB=46, plotW=W-padL-padR, plotH=H-padT-padB;
+  ctx.clearRect(0,0,W,H);
+  ctx.font='12px Inter,sans-serif';
+  // y grid 0..1
+  ctx.strokeStyle='#e2e7f3'; ctx.fillStyle='#8a97b2'; ctx.textAlign='right';
+  for(let t=0;t<=1.0001;t+=0.25){
+    const y=padT+plotH-(t*plotH);
+    ctx.beginPath();ctx.moveTo(padL,y);ctx.lineTo(W-padR,y);ctx.stroke();
+    ctx.fillText((t*100)+'%',padL-7,y+4);
+  }
+  const groups=rows.length, gW=plotW/groups, sN=series.length;
+  const bW=Math.min(46,(gW*0.72)/sN);
+  rows.forEach((r,gi)=>{
+    const gx=padL+gi*gW+gW/2;
+    series.forEach((s,si)=>{
+      const v=r[s[0]]||0, h=v*plotH;
+      const x=gx-(sN*bW)/2+si*bW;
+      ctx.fillStyle=SERIES_COLORS[si%SERIES_COLORS.length];
+      const y=padT+plotH-h;
+      ctx.beginPath();ctx.roundRect(x,y,bW-3,h,[4,4,0,0]);ctx.fill();
+    });
+    ctx.fillStyle='#36425c';ctx.textAlign='center';ctx.font='11.5px Inter,sans-serif';
+    ctx.fillText(t2(r.k),gx,H-padB+18);
+  });
+  // legend
+  const lg=document.getElementById('lgd');
+  lg.innerHTML=series.map((s,i)=>`<span class="lg-item"><i style="background:${SERIES_COLORS[i%4]}"></i>${s[1]}</span>`).join('');
+}
+
+// ---- canvas scatter: human (x) vs mediapipe (y) ----
+function drawScatter(){
+  const cv=document.getElementById('sc'); if(!cv)return;
+  const ctx=cv.getContext('2d'),W=cv.width,H=cv.height;
+  const pad=52,plotW=W-pad-18,plotH=H-pad-40;
+  const X=v=>pad+v*plotW, Y=v=>pad-24+plotH-(v*plotH);
+  ctx.clearRect(0,0,W,H);ctx.font='11.5px Inter,sans-serif';
+  // grid + axis ticks
+  ctx.strokeStyle='#eef2fc';ctx.fillStyle='#8a97b2';
+  for(let t=0;t<=1.0001;t+=0.25){
+    ctx.textAlign='right';const y=Y(t);ctx.beginPath();ctx.moveTo(pad,y);ctx.lineTo(W-18,y);ctx.stroke();
+    ctx.fillText((t*100)+'%',pad-7,y+4);
+    ctx.textAlign='center';const x=X(t);ctx.beginPath();ctx.strokeStyle='#f4f7fd';
+    ctx.moveTo(x,pad-24);ctx.lineTo(x,pad-24+plotH);ctx.stroke();ctx.strokeStyle='#eef2fc';
+    ctx.fillText((t*100)+'%',x,pad-24+plotH+18);
+  }
+  // diagonal (perfect agreement)
+  ctx.strokeStyle='#c9d2ea';ctx.setLineDash([5,4]);
+  ctx.beginPath();ctx.moveTo(X(0),Y(0));ctx.lineTo(X(1),Y(1));ctx.stroke();ctx.setLineDash([]);
+  // axis labels
+  ctx.fillStyle='#5e6b85';ctx.font='12px Inter,sans-serif';ctx.textAlign='center';
+  ctx.fillText('Human recognition →',pad+plotW/2,H-6);
+  ctx.save();ctx.translate(15,pad-24+plotH/2);ctx.rotate(-Math.PI/2);
+  ctx.fillText('MediaPipe accuracy →',0,0);ctx.restore();
+  // jitter identical points slightly so overlaps show
+  const seen={};
+  SCATTER.forEach(p=>{
+    const key=p.human+'_'+p.mp; seen[key]=(seen[key]||0)+1;
+    const j=(seen[key]-1)*3;
+    ctx.beginPath();ctx.fillStyle='rgba(22,48,143,.55)';
+    ctx.arc(X(p.human)+j-1,Y(p.mp)-j+1,4.5,0,7);ctx.fill();
+    ctx.strokeStyle='#fff';ctx.lineWidth=1;ctx.stroke();
+  });
+}
+init();
+</script>
+</body>
+</html>
