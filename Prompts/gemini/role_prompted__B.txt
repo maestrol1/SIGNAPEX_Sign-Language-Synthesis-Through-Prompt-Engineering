@@ -1,0 +1,57 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": {
+    "palm_facing": "anteriorly",
+    "fingers_pointing": "superiorly",
+    "hand_plane_orientation": "vertical",
+    "wrist_flexion_extension": "neutral",
+    "wrist_ulnar_radial_deviation": "neutral"
+  },
+  "thumb": {
+    "metacarpophalangeal_joint": "flexed",
+    "interphalangeal_joint": "flexed",
+    "adduction_abduction": "fully_adducted_against_palm",
+    "position_description": "tucked_across_palm_inferior_to_other_fingers",
+    "contact_points": "contacting_palm_and_proximal_phalanges_of_ring_and_pinky_fingers"
+  },
+  "index_finger": {
+    "metacarpophalangeal_joint": "extended",
+    "proximal_interphalangeal_joint": "extended",
+    "distal_interphalangeal_joint": "extended",
+    "adduction_abduction": "adducted_to_middle_finger",
+    "overall_shape": "straight",
+    "contact_points": "lateral_side_touching_medial_side_of_middle_finger"
+  },
+  "middle_finger": {
+    "metacarpophalangeal_joint": "extended",
+    "proximal_interphalangeal_joint": "extended",
+    "distal_interphalangeal_joint": "extended",
+    "adduction_abduction": "adducted_between_index_and_ring_fingers",
+    "overall_shape": "straight",
+    "contact_points": "touching_index_finger_laterally_and_ring_finger_medially"
+  },
+  "ring_finger": {
+    "metacarpophalangeal_joint": "extended",
+    "proximal_interphalangeal_joint": "extended",
+    "distal_interphalangeal_joint": "extended",
+    "adduction_abduction": "adducted_between_middle_and_pinky_fingers",
+    "overall_shape": "straight",
+    "contact_points": "touching_middle_finger_laterally_and_pinky_finger_medially"
+  },
+  "pinky_finger": {
+    "metacarpophalangeal_joint": "extended",
+    "proximal_interphalangeal_joint": "extended",
+    "distal_interphalangeal_joint": "extended",
+    "adduction_abduction": "adducted_to_ring_finger",
+    "overall_shape": "straight",
+    "contact_points": "lateral_side_touching_medial_side_of_ring_finger"
+  },
+  "group_features": {
+    "four_extended_fingers_alignment": "index_to_pinky_fingers_are_fully_extended_and_held_together_forming_a_single_flat_contiguous_unit",
+    "finger_tips_alignment": "all_four_extended_fingers_have_aligned_or_near_aligned_finger_tips_at_the_superior_most_point_of_the_hand"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

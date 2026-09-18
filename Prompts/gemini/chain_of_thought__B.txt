@@ -1,0 +1,25 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+Reasoning:
+The image displays a human right hand forming a specific handshape against a light-colored, textured wall.
+
+1.  **Overall hand posture and wrist angle relative to the forearm:** The hand is held upright and vertically oriented, with the fingers pointing upwards. The wrist, though not fully visible, appears to be in a neutral or very slightly extended position relative to the unseen forearm, maintaining a relatively straight line between the hand and where the forearm would be.
+
+2.  **Palm orientation relative to the camera:** The palm of the hand is facing towards the left side of the camera's frame. Consequently, the dorsal (back) side of the hand is facing towards the right side of the camera's frame.
+
+3.  **Position of each finger:**
+    *   **Thumb:** The thumb is curled. It is flexed at both the metacarpophalangeal (MCP) joint and the interphalangeal (IP) joint. The tip of the thumb is making firm contact with the center of the palm, specifically at the base of the ring and middle fingers.
+    *   **Index finger:** The index finger is fully extended, pointing straight upwards. All its joints (MCP, proximal interphalangeal (PIP), and distal interphalangeal (DIP)) appear to be straight.
+    *   **Middle finger:** The middle finger is fully extended, pointing straight upwards. All its joints appear to be straight. It is held closely parallel to the index finger.
+    *   **Ring finger:** The ring finger is fully extended, pointing straight upwards. All its joints appear to be straight. It is held closely parallel to the middle finger.
+    *   **Pinky finger:** The pinky finger is fully extended, pointing straight upwards. All its joints appear to be straight. It is held closely parallel to the ring finger.
+
+    *   **Contact between fingers or with the palm:** The index, middle, ring, and pinky fingers are held very closely together, nearly touching along their lateral sides, forming a contiguous, flat plane of extended fingers. The thumb's tip is pressed firmly against the palm at the base of the other fingers.
+
+4.  **Whether the handshape is held static or includes motion:** The provided image is a single still photograph, showing no blur or indication of movement. Therefore, the handshape is static.
+
+FINAL_JSON:
+{"overall_hand_posture": "The hand is held upright and vertically oriented, with fingers pointing upwards.", "wrist_angle_relative_to_forearm": "The wrist appears to be in a neutral or slightly extended position, maintaining a relatively straight line with the hand.", "palm_orientation": "The palm faces sideways to the left (from the camera's perspective), while the dorsal side of the hand faces sideways to the right.", "thumb": {"state": "Curled", "joint_configuration": "Flexed at both metacarpophalangeal (MCP) and interphalangeal (IP) joints."}, "index_finger": {"state": "Extended", "joint_configuration": "All joints (MCP, PIP, DIP) are straight."}, "middle_finger": {"state": "Extended", "joint_configuration": "All joints (MCP, PIP, DIP) are straight."}, "ring_finger": {"state": "Extended", "joint_configuration": "All joints (MCP, PIP, DIP) are straight."}, "pinky_finger": {"state": "Extended", "joint_configuration": "All joints (MCP, PIP, DIP) are straight."}, "finger_contact_and_spacing": {"thumb_contact": "The tip of the thumb is making firm contact with the center of the palm, specifically at the base of the ring and middle fingers.", "extended_finger_spacing": "The index, middle, ring, and pinky fingers are held very closely together, nearly touching along their lateral sides, forming a contiguous, upward-pointing plane."}, "hand_motion_status": "Static"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

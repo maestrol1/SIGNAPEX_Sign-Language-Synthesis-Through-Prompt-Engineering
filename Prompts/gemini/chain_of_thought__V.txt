@@ -1,0 +1,19 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+Reasoning:
+The hand is presented vertically with the palm facing directly towards the camera. The wrist appears to be held straight, aligning the hand with the unseen forearm.
+
+Regarding the fingers:
+- The **index finger** is fully extended upwards, maintaining a straight posture. It is slightly separated from the middle finger.
+- The **middle finger** is also fully extended upwards, parallel to the index finger, and slightly separated from it.
+- The **ring finger** is fully curled downwards towards the palm. Its fingertip appears to be in contact with or very close to the palm.
+- The **pinky finger** is also fully curled downwards towards the palm, positioned alongside the ring finger. Its fingertip appears to be in contact with or very close to the palm.
+- The **thumb** is extended outwards and slightly upwards, held away from both the palm and the curled fingers, creating an open space.
+
+There is no discernible motion in the static image.
+
+FINAL_JSON:
+{"overall_hand_posture": "upright and vertical", "wrist_angle_relative_to_forearm": "relatively straight, in line with forearm", "palm_orientation": "forward, directly towards camera", "fingers": {"thumb": {"position": "extended outwards and slightly upwards", "contact": "no contact with other fingers or palm"}, "index": {"position": "extended straight upwards", "contact": "no contact with other fingers or palm, slightly separated from middle finger"}, "middle": {"position": "extended straight upwards, parallel to index finger", "contact": "no contact with other fingers or palm, slightly separated from index finger"}, "ring": {"position": "curled downwards, tucked towards palm", "contact": "tip of finger touching or very close to palm"}, "pinky": {"position": "curled downwards, tucked towards palm", "contact": "tip of finger touching or very close to palm"}}, "handshape_motion": "static"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

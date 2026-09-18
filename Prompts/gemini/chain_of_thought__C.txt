@@ -1,0 +1,76 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+Reasoning:
+
+The analysis begins with the overall hand and wrist posture, followed by the palm's orientation. Then, each finger—thumb, index, middle, ring, and pinky—is examined individually for its specific joint positions and any contact it makes. Finally, the presence or absence of motion is assessed.
+
+1.  **Overall Hand Posture and Wrist Angle:**
+    The hand is held upright and slightly angled towards the right, with the fingers forming a generally closed, curled shape, and the thumb distinct from them. The wrist appears relatively straight, possibly with a slight dorsiflexion (bent upwards) relative to the unseen forearm, maintaining a neutral or slightly elevated position for the hand.
+
+2.  **Palm Orientation:**
+    The palm is oriented directly towards the camera, making the inner surface of the hand and the curled fingers clearly visible.
+
+3.  **Position of Each Finger:**
+    *   **Thumb:** The thumb is curved rather than fully extended or fully closed. Its metacarpophalangeal (MCP) joint is flexed, and its interphalangeal (IP) joint is also flexed, creating a distinct hook-like curve. The tip of the thumb is pointing inwards but does not make contact with the palm or any of the other fingers. It is held distinctly apart from the group of curled fingers.
+    *   **Index Finger:** This finger is fully curled. All its joints—metacarpophalangeal (MCP), proximal interphalangeal (PIP), and distal interphalangeal (DIP)—are flexed. The fingertip is making firm contact with the palm, specifically in the lower palm area, possibly near the base of the thumb.
+    *   **Middle Finger:** Similar to the index finger, the middle finger is fully curled. Its MCP, PIP, and DIP joints are all flexed. The fingertip makes firm contact with the palm, positioned immediately adjacent to the index finger's tip.
+    *   **Ring Finger:** The ring finger is also fully curled, with all its MCP, PIP, and DIP joints flexed. Its fingertip makes firm contact with the palm, adjacent to the middle finger's tip.
+    *   **Pinky Finger:** The pinky finger is likewise fully curled, with all its MCP, PIP, and DIP joints flexed. Its fingertip makes firm contact with the palm, adjacent to the ring finger's tip, completing the group of four curled fingers.
+
+    *   **Contact between fingers or with the palm:** The tips of the index, middle, ring, and pinky fingers are all in contact with the palm. Additionally, the sides of these four curled fingers are in contact with each other, forming a tight, unified curl. The thumb is entirely separate and does not touch any other finger or the palm.
+
+4.  **Motion:**
+    The handshape appears static. There is no indication of ongoing or imminent movement.
+
+FINAL_JSON:
+{
+  "hand_posture": {
+    "overall": "The hand is held upright with fingers curled and the thumb distinct. It is angled slightly to the right.",
+    "wrist_angle_relative_to_forearm": "The wrist appears relatively straight, possibly with a slight dorsiflexion, aligning the hand with the forearm."
+  },
+  "palm_orientation": "Facing directly towards the camera.",
+  "finger_positions": {
+    "thumb": {
+      "state": "curved",
+      "mcp_joint": "flexed",
+      "ip_joint": "flexed",
+      "contact": "No contact with other fingers or the palm. It is held distinctly separate from the other fingers, forming a hook-like shape."
+    },
+    "index_finger": {
+      "state": "curled",
+      "mcp_joint": "flexed",
+      "pip_joint": "flexed",
+      "dip_joint": "flexed",
+      "contact": "Fingertip is making firm contact with the palm, in the lower palm area."
+    },
+    "middle_finger": {
+      "state": "curled",
+      "mcp_joint": "flexed",
+      "pip_joint": "flexed",
+      "dip_joint": "flexed",
+      "contact": "Fingertip is making firm contact with the palm, adjacent to the index finger's tip."
+    },
+    "ring_finger": {
+      "state": "curled",
+      "mcp_joint": "flexed",
+      "pip_joint": "flexed",
+      "dip_joint": "flexed",
+      "contact": "Fingertip is making firm contact with the palm, adjacent to the middle finger's tip."
+    },
+    "pinky_finger": {
+      "state": "curled",
+      "mcp_joint": "flexed",
+      "pip_joint": "flexed",
+      "dip_joint": "flexed",
+      "contact": "Fingertip is making firm contact with the palm, adjacent to the ring finger's tip."
+    }
+  },
+  "inter_finger_contact": "The tips of the index, middle, ring, and pinky fingers are all touching the palm. The sides of these four fingers are also in contact with each other. The thumb is isolated and does not touch any other finger or the palm.",
+  "motion": {
+    "is_static": true,
+    "path_description": "None, as the handshape is static."
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

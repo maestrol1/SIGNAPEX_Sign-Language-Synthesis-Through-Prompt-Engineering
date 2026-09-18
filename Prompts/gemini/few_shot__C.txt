@@ -1,0 +1,12 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "palm_orientation": "forward",
+  "thumb": "extended upward and outward, held away from the fingers",
+  "fingers": "all four bent and curved, held together, forming a C-shape",
+  "wrist_angle": "neutral",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

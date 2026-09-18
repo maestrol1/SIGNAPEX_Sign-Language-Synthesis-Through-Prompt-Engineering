@@ -1,0 +1,41 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_identity": "right",
+  "hand_orientation": {
+    "palm_direction": "facing viewer",
+    "wrist_position": "appears neutral/straight (not fully visible)",
+    "hand_angle": "upright, fingers pointing generally upwards if extended"
+  },
+  "fingers": {
+    "thumb": {
+      "state": "bent and tucked",
+      "position": "tucked across the palm, underneath the index, middle, ring, and pinky fingers",
+      "visibility": "partially visible from the palm side, tip and nail are not visible"
+    },
+    "index_finger": {
+      "state": "tightly curled",
+      "contact": "fingertip is pressing against the center of the palm",
+      "knuckle_visibility": "metacarpophalangeal (MCP) knuckle is visible and rounded"
+    },
+    "middle_finger": {
+      "state": "tightly curled",
+      "contact": "fingertip is pressing against the center of the palm",
+      "knuckle_visibility": "metacarpophalangeal (MCP) knuckle is visible and rounded"
+    },
+    "ring_finger": {
+      "state": "tightly curled",
+      "contact": "fingertip is pressing against the center of the palm",
+      "knuckle_visibility": "metacarpophalangeal (MCP) knuckle is visible and rounded"
+    },
+    "pinky_finger": {
+      "state": "tightly curled",
+      "contact": "fingertip is pressing against the center of the palm",
+      "knuckle_visibility": "metacarpophalangeal (MCP) knuckle is visible and rounded"
+    }
+  },
+  "overall_hand_shape": "a tight fist where the four fingers are fully curled inwards and the thumb is bent and tucked deeply beneath them, resting on the palm."
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

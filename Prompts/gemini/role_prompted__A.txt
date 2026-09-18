@@ -1,0 +1,55 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "hand_orientation": {
+    "palmar_surface_visibility": "partially_visible",
+    "dorsal_surface_visibility": "mostly_obscured",
+    "hand_plane_orientation": "vertical",
+    "palm_facing_direction_relative_to_camera": "anterior_superior_left",
+    "thumb_direction_relative_to_hand": "superior",
+    "wrist_joint_state": "slight_extension"
+  },
+  "finger_details": {
+    "thumb": {
+      "metacarpophalangeal_joint_state": "extended",
+      "interphalangeal_joint_state": "extended",
+      "abduction_adduction_from_index_finger": "slightly_abducted",
+      "tip_orientation": "superior",
+      "contact_with_other_digits_or_palm": "none"
+    },
+    "index_finger": {
+      "metacarpophalangeal_joint_state": "flexed",
+      "proximal_interphalangeal_joint_state": "flexed",
+      "distal_interphalangeal_joint_state": "flexed",
+      "adduction_abduction_from_middle_finger": "adducted",
+      "tip_contact_point": "resting_on_palm"
+    },
+    "middle_finger": {
+      "metacarpophalangeal_joint_state": "flexed",
+      "proximal_interphalangeal_joint_state": "flexed",
+      "distal_interphalangeal_joint_state": "flexed",
+      "adduction_abduction_from_index_and_ring_fingers": "adducted",
+      "tip_contact_point": "resting_on_palm"
+    },
+    "ring_finger": {
+      "metacarpophalangeal_joint_state": "flexed",
+      "proximal_interphalangeal_joint_state": "flexed",
+      "distal_interphalangeal_joint_state": "flexed",
+      "adduction_abduction_from_middle_and_little_fingers": "adducted",
+      "tip_contact_point": "resting_on_palm"
+    },
+    "little_finger": {
+      "metacarpophalangeal_joint_state": "flexed",
+      "proximal_interphalangeal_joint_state": "flexed",
+      "distal_interphalangeal_joint_state": "flexed",
+      "adduction_abduction_from_ring_finger": "adducted",
+      "tip_contact_point": "resting_on_palm"
+    }
+  },
+  "overall_hand_shape_description": "A closed fist formed by the full flexion and adduction of the index, middle, ring, and little fingers, with their fingertips resting on the palm. The thumb is fully extended and slightly abducted from the radial side of the index finger, pointing superiorly away from the other fingers."
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

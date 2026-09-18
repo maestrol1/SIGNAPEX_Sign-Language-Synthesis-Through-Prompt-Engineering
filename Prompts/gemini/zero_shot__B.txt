@@ -1,0 +1,6 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{"hand_type": "right hand", "palm_orientation": "forward", "fingers_direction": "upwards", "wrist_visibility": "partially visible", "thumb": {"state": "bent", "position": "tucked across palm", "tip_contact": "against base of index finger"}, "index_finger": {"state": "extended", "joints_bend": "straight"}, "middle_finger": {"state": "extended", "joints_bend": "straight"}, "ring_finger": {"state": "extended", "joints_bend": "straight"}, "pinky_finger": {"state": "extended", "joints_bend": "straight"}, "fingers_spread": "together"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

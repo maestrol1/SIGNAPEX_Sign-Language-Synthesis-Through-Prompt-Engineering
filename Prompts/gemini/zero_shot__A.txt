@@ -1,0 +1,68 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": {
+    "plane": "vertical",
+    "palm_direction": "forward",
+    "rotation": "pinky_side_closer_to_camera_than_thumb_side",
+    "fingers_pointing": "upwards"
+  },
+  "thumb": {
+    "state": "extended",
+    "orientation": "upwards_and_away_from_the_palm_surface",
+    "contact": "none",
+    "flexion": {
+      "mcp_joint": "slight_bend",
+      "ip_joint": "slight_bend"
+    }
+  },
+  "fingers_excluding_thumb": {
+    "state": "curled_into_fist",
+    "grouping": "tightly_together",
+    "individual_fingers": {
+      "index": {
+        "contact_point": "fingertip_touching_palm",
+        "flexion": {
+          "mcp_joint": "fully_bent",
+          "pip_joint": "fully_bent",
+          "dip_joint": "fully_bent"
+        }
+      },
+      "middle": {
+        "contact_point": "fingertip_touching_palm",
+        "flexion": {
+          "mcp_joint": "fully_bent",
+          "pip_joint": "fully_bent",
+          "dip_joint": "fully_bent"
+        }
+      },
+      "ring": {
+        "contact_point": "fingertip_touching_palm",
+        "flexion": {
+          "mcp_joint": "fully_bent",
+          "pip_joint": "fully_bent",
+          "dip_joint": "fully_bent"
+        }
+      },
+      "pinky": {
+        "contact_point": "fingertip_touching_palm",
+        "flexion": {
+          "mcp_joint": "fully_bent",
+          "pip_joint": "fully_bent",
+          "dip_joint": "fully_bent"
+        }
+      }
+    }
+  },
+  "wrist": {
+    "state": "straight"
+  },
+  "forearm": {
+    "visibility": "partial",
+    "entry_point": "lower_right_of_frame",
+    "angle_relative_to_hand": "aligned_with_hand"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

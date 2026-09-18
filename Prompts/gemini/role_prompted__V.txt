@@ -1,0 +1,71 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_global_orientation": {
+    "palm_direction": "facing_forward_towards_viewer",
+    "finger_direction": "pointing_upwards",
+    "wrist_flexion_extension": "neutral_or_straight"
+  },
+  "thumb_configuration": {
+    "metacarpophalangeal_joint_state": "flexed",
+    "interphalangeal_joint_state": "flexed",
+    "overall_position": "tucked_across_palm_horizontally",
+    "contact_with_palm": "palmar_surface_of_thumb_pad_rests_against_palm_approximately_at_base_of_ring_and_pinky_fingers",
+    "contact_with_fingers": "dorsal_surface_of_flexed_thumb_is_covered_by_the_palmar_surfaces_of_the_flexed_ring_and_pinky_fingers"
+  },
+  "finger_configurations": [
+    {
+      "finger_name": "index_finger",
+      "metacarpophalangeal_joint_state": "extended",
+      "proximal_interphalangeal_joint_state": "extended",
+      "distal_interphalangeal_joint_state": "extended",
+      "orientation": "vertical_upwards",
+      "adjacent_finger_proximity": "free_standing_and_separated_from_middle_finger_on_ulnar_side",
+      "visible_nails": "not_visible"
+    },
+    {
+      "finger_name": "middle_finger",
+      "metacarpophalangeal_joint_state": "extended",
+      "proximal_interphalangeal_joint_state": "extended",
+      "distal_interphalangeal_joint_state": "extended",
+      "orientation": "vertical_upwards",
+      "adjacent_finger_proximity": "free_standing_and_separated_from_index_finger_on_radial_side",
+      "visible_nails": "not_visible"
+    },
+    {
+      "finger_name": "ring_finger",
+      "metacarpophalangeal_joint_state": "fully_flexed",
+      "proximal_interphalangeal_joint_state": "fully_flexed",
+      "distal_interphalangeal_joint_state": "fully_flexed",
+      "overall_position": "curled_tightly_into_palm",
+      "contact_with_palm": "palmar_surface_of_finger_against_palm",
+      "adjacent_finger_proximity": "ulnar_side_in_contact_with_radial_side_of_pinky_finger",
+      "contact_with_thumb": "palmar_surface_of_finger_rests_upon_dorsal_surface_of_flexed_thumb",
+      "visible_nails": "not_visible_due_to_flexion"
+    },
+    {
+      "finger_name": "pinky_finger",
+      "metacarpophalangeal_joint_state": "fully_flexed",
+      "proximal_interphalangeal_joint_state": "fully_flexed",
+      "distal_interphalangeal_joint_state": "fully_flexed",
+      "overall_position": "curled_tightly_into_palm",
+      "contact_with_palm": "palmar_surface_of_finger_against_palm",
+      "adjacent_finger_proximity": "radial_side_in_contact_with_ulnar_side_of_ring_finger",
+      "contact_with_thumb": "palmar_surface_of_finger_rests_upon_dorsal_surface_of_flexed_thumb",
+      "visible_nails": "not_visible_due_to_flexion"
+    }
+  ],
+  "finger_spatial_relationships": {
+    "index_middle_separation": "a_distinct_visible_gap_between_index_and_middle_fingers_approximately_one_finger_width_at_the_tips",
+    "ring_pinky_contact": "medial_surfaces_of_ring_and_pinky_fingers_are_in_direct_and_tight_contact",
+    "extended_fingers_to_flexed_fingers_proximity": "no_direct_physical_contact_between_extended_and_flexed_fingers"
+  },
+  "visible_skin_features": {
+    "creases": "pronounced_creases_visible_on_palmar_surfaces_of_flexed_joints_and_palm",
+    "hair": "fine_hairs_visible_on_dorsal_aspects_of_the_proximal_segments_of_the_flexed_ring_and_pinky_fingers"
+  },
+  "shadow_presence": "a_soft_shadow_is_cast_by_the_hand_on_the_white_background_to_the_right_of_the_hand"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,68 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_anatomical_description": {
+    "hand_orientation": {
+      "palm_facing": "anteriorly_and_radially_tilted",
+      "fingers_pointing": "curled_fingers_inward_towards_palm_base, thumb_upward_and_outward",
+      "wrist_joint_state": {
+        "flexion_extension": "neutral",
+        "ulnar_radial_deviation": "neutral"
+      }
+    },
+    "finger_details": [
+      {
+        "finger_name": "thumb",
+        "metacarpophalangeal_joint_state": "extended",
+        "interphalangeal_joint_state": "extended",
+        "abduction_adduction_state": "abducted_from_palm",
+        "orientation_description": "pointing_upward_and_radially_away_from_palm_plane",
+        "contact_points": "no_contact_with_other_fingers_or_palm_surface"
+      },
+      {
+        "finger_name": "index_finger",
+        "metacarpophalangeal_joint_state": "flexed_approximately_90_degrees",
+        "proximal_interphalangeal_joint_state": "flexed_approximately_90_degrees",
+        "distal_interphalangeal_joint_state": "flexed_approximately_45_degrees",
+        "curl_direction": "curled_inward_towards_the_palm",
+        "proximity_to_palm": "tip_close_to_palm_but_not_touching",
+        "contact_points": "ulnar_side_in_contact_with_radial_side_of_middle_finger"
+      },
+      {
+        "finger_name": "middle_finger",
+        "metacarpophalangeal_joint_state": "flexed_approximately_90_degrees",
+        "proximal_interphalangeal_joint_state": "flexed_approximately_90_degrees",
+        "distal_interphalangeal_joint_state": "flexed_approximately_45_degrees",
+        "curl_direction": "curled_inward_towards_the_palm",
+        "proximity_to_palm": "tip_close_to_palm_but_not_touching",
+        "contact_points": "radial_side_in_contact_with_ulnar_side_of_index_finger; ulnar_side_in_contact_with_radial_side_of_ring_finger"
+      },
+      {
+        "finger_name": "ring_finger",
+        "metacarpophalangeal_joint_state": "flexed_approximately_90_degrees",
+        "proximal_interphalangeal_joint_state": "flexed_approximately_90_degrees",
+        "distal_interphalangeal_joint_state": "flexed_approximately_45_degrees",
+        "curl_direction": "curled_inward_towards_the_palm",
+        "proximity_to_palm": "tip_close_to_palm_but_not_touching",
+        "contact_points": "radial_side_in_contact_with_ulnar_side_of_middle_finger; ulnar_side_in_contact_with_radial_side_of_pinky_finger"
+      },
+      {
+        "finger_name": "pinky_finger",
+        "metacarpophalangeal_joint_state": "flexed_approximately_90_degrees",
+        "proximal_interphalangeal_joint_state": "flexed_approximately_90_degrees",
+        "distal_interphalangeal_joint_state": "flexed_approximately_45_degrees",
+        "curl_direction": "curled_inward_towards_the_palm",
+        "proximity_to_palm": "tip_close_to_palm_but_not_touching",
+        "contact_points": "radial_side_in_contact_with_ulnar_side_of_ring_finger"
+      }
+    ],
+    "overall_hand_shape": {
+      "finger_grouping": "index_to_pinky_fingers_are_curled_tightly_together_and_parallel",
+      "thumb_position_relative_to_fingers": "thumb_is_extended_and_held_abducted_away_from_the_curled_fingers",
+      "gaping_between_fingers": "minimal_to_no_gaping_between_curled_fingers"
+    }
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

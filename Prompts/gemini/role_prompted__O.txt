@@ -1,0 +1,61 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": {
+    "palm_facing": "Anterior (towards the viewer)",
+    "fingers_pointing": "Superior (upwards)",
+    "hand_plane": "Approximately vertical, perpendicular to the assumed ground plane.",
+    "wrist_visibility": "Partial, showing the proximal portion of the palm and the immediate wrist junction."
+  },
+  "thumb_configuration": {
+    "digit_id": 1,
+    "position_on_palm": "Adducted, resting across the palm.",
+    "relation_to_other_fingers": "The thumb's distal and interphalangeal segments are tucked underneath the curled tips of the index and middle fingers.",
+    "cmc_joint_flexion": "Moderate.",
+    "mcp_joint_flexion": "Significant.",
+    "ip_joint_flexion": "Significant.",
+    "tip_visibility": "Not visible, obscured by the other curled fingers."
+  },
+  "finger_configurations": [
+    {
+      "digit_id": 2,
+      "finger_name": "Index finger",
+      "mcp_joint_flexion": "Full.",
+      "pip_joint_flexion": "Full.",
+      "dip_joint_flexion": "Full.",
+      "overall_curl": "Tightly curled.",
+      "tip_contact_point": "Appears to be touching the thenar eminence (base of the thumb)."
+    },
+    {
+      "digit_id": 3,
+      "finger_name": "Middle finger",
+      "mcp_joint_flexion": "Full.",
+      "pip_joint_flexion": "Full.",
+      "dip_joint_flexion": "Full.",
+      "overall_curl": "Tightly curled.",
+      "tip_contact_point": "Appears to be touching the thenar eminence (base of the thumb)."
+    },
+    {
+      "digit_id": 4,
+      "finger_name": "Ring finger",
+      "mcp_joint_flexion": "Full.",
+      "pip_joint_flexion": "Full.",
+      "dip_joint_flexion": "Full.",
+      "overall_curl": "Tightly curled.",
+      "tip_contact_point": "Appears to be touching the palm, potentially near the hypothenar eminence."
+    },
+    {
+      "digit_id": 5,
+      "finger_name": "Pinky finger",
+      "mcp_joint_flexion": "Full.",
+      "pip_joint_flexion": "Full.",
+      "dip_joint_flexion": "Full.",
+      "overall_curl": "Tightly curled.",
+      "tip_contact_point": "Appears to be touching the palm, potentially near the hypothenar eminence."
+    }
+  ],
+  "overall_handshape": "A tight, closed fist. All four fingers (index through pinky) are fully flexed at all joints and curled tightly into the palm. The thumb is adducted and significantly flexed, lying across the palm, with its tip positioned securely underneath the curled fingertips of the index and middle fingers. The knuckles of the fingers are visible at the superior aspect of the hand."
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

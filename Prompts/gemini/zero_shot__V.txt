@@ -1,0 +1,39 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "hand_orientation": {
+    "perspective": "back_of_hand_visible",
+    "extended_fingers_direction": "upwards"
+  },
+  "fingers": {
+    "index_finger": {
+      "state": "extended",
+      "articulation": "straight"
+    },
+    "middle_finger": {
+      "state": "extended",
+      "articulation": "straight",
+      "relationship_to_index": "forming_a_narrow_V_shape"
+    },
+    "ring_finger": {
+      "state": "flexed",
+      "articulation": "tightly_bent",
+      "position": "tucked_against_palm"
+    },
+    "pinky_finger": {
+      "state": "flexed",
+      "articulation": "tightly_bent",
+      "position": "tucked_against_palm"
+    },
+    "thumb": {
+      "state": "flexed",
+      "articulation": "bent_at_knuckles",
+      "position": "pressed_across_palm_securing_ring_and_pinky_fingers"
+    }
+  }
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.
