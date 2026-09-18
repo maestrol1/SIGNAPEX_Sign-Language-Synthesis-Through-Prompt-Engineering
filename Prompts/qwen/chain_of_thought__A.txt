@@ -1,0 +1,18 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand in the image is positioned with the wrist slightly flexed, angled slightly outward and upward relative to the forearm. The palm faces the camera, oriented forward. The thumb is extended and positioned to the side, slightly away from the other fingers. The index finger is extended and pointing upward, while the middle, ring, and pinky fingers are curled inward toward the palm, with the tips of these curled fingers resting against the palm. The hand is held static, with no visible motion.
+
+FINAL_JSON:
+{
+  "wrist_angle": "slightly flexed, angled outward and upward",
+  "palm_orientation": "forward",
+  "thumb_position": "extended, slightly away from other fingers",
+  "index_finger_position": "extended, pointing upward",
+  "middle_finger_position": "curled, tip resting on palm",
+  "ring_finger_position": "curled, tip resting on palm",
+  "pinky_finger_position": "curled, tip resting on palm",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,16 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": "palm facing slightly upward and outward",
+  "thumb_position": "extended away from the palm, parallel to the index finger",
+  "index_finger": "extended straight, aligned with the thumb",
+  "middle_finger": "extended straight, aligned with the index finger",
+  "ring_finger": "extended straight, aligned with the index and middle fingers",
+  "pinky_finger": "extended straight, aligned with the other fingers",
+  "fingers_together": "all fingers are straight and parallel to each other",
+  "wrist_position": "neutral, not rotated or bent",
+  "hand_shape": "open hand with all five fingers extended and parallel"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

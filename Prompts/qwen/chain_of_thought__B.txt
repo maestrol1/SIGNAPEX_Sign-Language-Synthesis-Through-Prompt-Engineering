@@ -1,0 +1,19 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand in the image is held in a static position with the palm facing slightly toward the camera, angled slightly inward. The wrist is straight, aligned with the forearm, suggesting a neutral posture. The thumb is curled inward and resting against the side of the palm, near the base of the index finger. The index finger is extended and held straight, positioned vertically and parallel to the middle finger. The middle finger is also extended and aligned with the index finger. The ring finger is extended and positioned parallel to the middle finger. The pinky finger is extended and aligned with the ring finger. All fingers are held together in a straight line, forming a vertical column. There is no motion; the handshape is static.
+
+FINAL_JSON:
+{
+  "wrist_angle": "neutral",
+  "palm_orientation": "slightly inward",
+  "thumb_position": "curled, resting against palm",
+  "index_finger_position": "extended, straight",
+  "middle_finger_position": "extended, straight",
+  "ring_finger_position": "extended, straight",
+  "pinky_finger_position": "extended, straight",
+  "finger_contact": "index, middle, ring, and pinky fingers are aligned and touching each other",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

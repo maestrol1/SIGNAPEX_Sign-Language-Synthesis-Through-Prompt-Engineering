@@ -1,0 +1,14 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": "palm facing slightly upward and outward",
+  "thumb_position": "extended away from the palm, slightly curved",
+  "index_finger": "bent at the knuckles, touching the thumb",
+  "middle_finger": "bent at the knuckles, touching the thumb",
+  "ring_finger": "bent at the knuckles, touching the thumb",
+  "little_finger": "bent at the knuckles, touching the thumb",
+  "hand_shape": "closed fist with thumb extended outward and fingers curled inward toward the thumb"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

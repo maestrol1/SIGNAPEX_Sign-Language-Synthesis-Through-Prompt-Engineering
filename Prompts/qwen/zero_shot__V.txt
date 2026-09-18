@@ -1,0 +1,38 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handshape": {
+    "fingers": [
+      {
+        "finger": "index",
+        "position": "extended",
+        "orientation": "upward"
+      },
+      {
+        "finger": "middle",
+        "position": "extended",
+        "orientation": "upward"
+      },
+      {
+        "finger": "ring",
+        "position": "folded",
+        "orientation": "toward palm"
+      },
+      {
+        "finger": "pinky",
+        "position": "folded",
+        "orientation": "toward palm"
+      },
+      {
+        "finger": "thumb",
+        "position": "folded",
+        "orientation": "toward palm"
+      }
+    ],
+    "palm": "facing forward",
+    "wrist": "neutral"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

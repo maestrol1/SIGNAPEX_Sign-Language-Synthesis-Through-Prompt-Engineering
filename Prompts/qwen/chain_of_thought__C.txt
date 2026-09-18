@@ -1,0 +1,18 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand in the image is positioned with the wrist slightly flexed, angled slightly away from the forearm, creating a relaxed but deliberate posture. The palm faces slightly inward and upward, not fully facing the camera, but angled to show the side and top of the hand. The thumb is extended and positioned to the side of the hand, not touching any other fingers. The index finger is extended and slightly curved at the tip, pointing forward. The middle finger is curled inward, with the tip touching the base of the index finger. The ring finger is also curled inward, with its tip touching the base of the middle finger. The pinky finger is curled inward and pressed against the base of the ring finger. The hand is held in a static position, with no visible motion.
+
+FINAL_JSON:
+{
+  "wrist_angle": "slightly flexed, angled away from forearm",
+  "palm_orientation": "slightly inward and upward",
+  "thumb": "extended, positioned to the side, not touching other fingers",
+  "index_finger": "extended, slightly curved at tip, pointing forward",
+  "middle_finger": "curled inward, tip touching base of index finger",
+  "ring_finger": "curled inward, tip touching base of middle finger",
+  "pinky_finger": "curled inward, pressed against base of ring finger",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

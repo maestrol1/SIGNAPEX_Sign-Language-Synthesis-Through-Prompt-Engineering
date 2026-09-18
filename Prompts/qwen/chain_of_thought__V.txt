@@ -1,0 +1,18 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand in the image is positioned with the palm facing sideways, angled slightly toward the camera. The wrist is neutral, not significantly flexed or extended relative to the forearm. The index and middle fingers are extended and held upright, forming a "V" shape with the tips pointing upward and slightly outward. The thumb is curled inward and resting against the side of the hand, near the base of the index finger. The ring and pinky fingers are curled inward and pressed against the palm, with no visible gaps between them and the palm. The hand is held static, with no motion apparent.
+
+FINAL_JSON:
+{
+  "wrist_angle": "neutral",
+  "palm_orientation": "sideways",
+  "thumb": "curled",
+  "index_finger": "extended",
+  "middle_finger": "extended",
+  "ring_finger": "curled",
+  "pinky_finger": "curled",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,17 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": "palm facing forward",
+  "thumb_position": "extended upward and slightly outward",
+  "index_finger_position": "bent at the proximal interphalangeal joint, touching the thumb",
+  "middle_finger_position": "bent at the proximal interphalangeal joint, touching the index finger",
+  "ring_finger_position": "bent at the proximal interphalangeal joint, touching the middle finger",
+  "little_finger_position": "bent at the proximal interphalangeal joint, touching the ring finger",
+  "nail_condition": "nails are short, unpolished, and natural in appearance",
+  "skin_tone": "light to medium skin tone",
+  "hand_shape": "all fingers curled inward toward the palm except the thumb which is extended upward",
+  "wrist_position": "neutral, not rotated or flexed"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,15 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand_orientation": "palm facing forward",
+  "thumb_position": "folding inward toward the palm, touching the base of the index finger",
+  "index_finger": "extended straight upward",
+  "middle_finger": "extended straight upward, parallel to the index finger",
+  "ring_finger": "folding inward toward the palm, touching the base of the middle finger",
+  "pinky_finger": "folding inward toward the palm, touching the base of the ring finger",
+  "wrist_position": "neutral, slightly extended",
+  "hand_shape": "V-shape formed by the index and middle fingers, with other fingers curled inward"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

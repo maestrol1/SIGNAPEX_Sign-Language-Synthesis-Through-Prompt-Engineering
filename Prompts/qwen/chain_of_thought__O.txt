@@ -1,0 +1,18 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand in the image is positioned with the wrist slightly flexed and angled slightly toward the forearm, but not fully pronated or supinated. The palm is oriented slightly inward and forward, not fully facing the camera or turned sideways. The thumb is extended and positioned on the side of the hand, touching the base of the index finger. The index finger is extended and slightly curved, with its tip pointing toward the thumb. The middle finger is curled inward, with the knuckle resting against the palm. The ring finger is also curled inward, with the knuckle resting against the palm. The pinky finger is curled inward and resting against the palm. The handshape is static, with no motion visible.
+
+FINAL_JSON:
+{
+  "wrist_angle": "slightly flexed toward forearm",
+  "palm_orientation": "slightly inward and forward",
+  "thumb": "extended, touching base of index finger",
+  "index_finger": "extended and slightly curved",
+  "middle_finger": "curled inward, knuckle resting on palm",
+  "ring_finger": "curled inward, knuckle resting on palm",
+  "pinky_finger": "curled inward, resting on palm",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.
