@@ -40,7 +40,7 @@ If you keep it somewhere else, open `build_db.py` and `app.py` and set
 `ROOT` to the full path of your `FYP ASL` folder.
 
 The video dataset naming convention can be seen as:
-{T2V}__{VLM}__{Strategy}_{Class}
+{T2V}_ {VLM}_ {Strategy}_{Class}
 
 ---
 
