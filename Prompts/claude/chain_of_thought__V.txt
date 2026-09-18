@@ -1,0 +1,24 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+## Reasoning
+
+**Overall hand posture and wrist angle:** The wrist is held in a neutral to slightly extended position relative to the forearm. The hand is oriented vertically with the palm facing generally forward and slightly to the left (from the signer's perspective).
+
+**Palm orientation:** The palm faces forward toward the camera with a slight inward rotation. The back of the hand is visible but not the primary surface.
+
+**Finger positions:**
+- **Index finger:** Fully extended upward, straight at all joints
+- **Middle finger:** Fully extended upward, straight at all joints, positioned adjacent to the index finger with minimal gap
+- **Ring finger:** Fully curled/closed, tucked into the palm
+- **Pinky finger:** Fully curled/closed, tucked into the palm
+- **Thumb:** Curled inward, positioned against or near the palm, not visible as a prominent extended element
+
+**Contact and spacing:** The index and middle fingers are held close together with no visible gap between them. The ring and pinky fingers are fully flexed and held against the palm. The thumb is folded inward.
+
+**Motion:** The handshape appears static with no visible motion in the photograph.
+
+FINAL_JSON:
+{"hand_posture": "vertical", "wrist_angle": "neutral_to_slightly_extended", "palm_orientation": "forward_with_slight_inward_rotation", "index_finger": "fully_extended", "middle_finger": "fully_extended", "ring_finger": "fully_curled", "pinky_finger": "fully_curled", "thumb": "curled_inward", "finger_spacing": "index_and_middle_adjacent_with_minimal_gap", "contact": "ring_and_pinky_flexed_against_palm_thumb_folded_inward", "motion": "static"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

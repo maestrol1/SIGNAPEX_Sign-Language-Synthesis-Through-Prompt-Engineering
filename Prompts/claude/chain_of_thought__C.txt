@@ -1,0 +1,28 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+## Reasoning
+
+**Overall hand posture and wrist angle:**
+The wrist is extended backward (dorsiflexed) at approximately 45–60 degrees relative to the forearm. The hand is held in a vertical plane with the forearm, creating an upward-facing orientation.
+
+**Palm orientation:**
+The palm faces upward and slightly toward the camera. The palm surface is visible and open.
+
+**Finger positions:**
+- **Thumb:** Extended outward to the side, roughly perpendicular to the palm plane. No contact with other fingers.
+- **Index finger:** Extended upward, fully straightened at all joints.
+- **Middle finger:** Extended upward, fully straightened at all joints, positioned adjacent to the index finger.
+- **Ring finger:** Curled inward toward the palm, with the finger folded at the proximal and middle joints.
+- **Pinky finger:** Curled inward toward the palm, with the finger folded at the proximal and middle joints.
+
+**Contact and spacing:**
+The index and middle fingers are held close together but not pressed against each other. The ring and pinky fingers are both flexed and rest against or near the palm. The thumb maintains clear separation from all other fingers.
+
+**Motion:**
+The handshape appears static with no visible motion in the photograph.
+
+FINAL_JSON:
+{"wrist_angle_degrees": 50, "wrist_angle_description": "extended_backward", "palm_orientation": "upward_and_toward_camera", "thumb": {"state": "extended", "position": "lateral_to_palm", "contact": "none"}, "index_finger": {"state": "extended", "position": "upward", "contact": "none"}, "middle_finger": {"state": "extended", "position": "upward", "contact": "none"}, "ring_finger": {"state": "curled", "position": "toward_palm", "contact": "palm"}, "pinky_finger": {"state": "curled", "position": "toward_palm", "contact": "palm"}, "index_middle_spacing": "adjacent_not_pressed", "motion": "static"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

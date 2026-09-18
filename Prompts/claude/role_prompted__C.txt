@@ -1,0 +1,20 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "thumb_position": "abducted_laterally",
+  "thumb_flexion": "extended",
+  "index_finger": "extended_upward",
+  "middle_finger": "extended_upward",
+  "ring_finger": "flexed_at_all_joints",
+  "pinky_finger": "flexed_at_all_joints",
+  "palm_orientation": "facing_left",
+  "wrist_position": "neutral",
+  "finger_spread": "index_and_middle_separated_from_ring_and_pinky",
+  "hand_shape_category": "two_extended_fingers_with_thumb_abducted",
+  "notable_features": "index_and_middle_fingers_form_narrow_V_shape_pointing_upward_thumb_extends_perpendicular_to_palm_ring_and_pinky_fully_flexed_into_palm"
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

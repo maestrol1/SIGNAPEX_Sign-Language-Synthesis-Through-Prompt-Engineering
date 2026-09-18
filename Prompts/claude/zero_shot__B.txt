@@ -1,0 +1,22 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "handshape": {
+    "fingers": {
+      "thumb": "extended, abducted to the side",
+      "index": "extended upward",
+      "middle": "extended upward",
+      "ring": "extended upward",
+      "pinky": "extended upward"
+    },
+    "palm_orientation": "facing forward",
+    "hand_configuration": "all fingers extended and spread",
+    "thumb_position": "abducted away from other fingers",
+    "finger_spacing": "fingers held together in a group, thumb separated"
+  }
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

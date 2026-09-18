@@ -1,0 +1,15 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "handshape": "fist",
+  "thumb_position": "extended_upward",
+  "fingers": "all_curled_inward",
+  "palm_orientation": "facing_left",
+  "wrist_position": "neutral",
+  "hand_orientation": "vertical"
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

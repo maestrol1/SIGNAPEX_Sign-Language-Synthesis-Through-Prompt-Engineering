@@ -1,0 +1,14 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "palm_orientation": "forward",
+  "thumb": "tucked across the palm",
+  "fingers": "index and middle fingers extended upward and spread apart, ring and pinky fingers closed into the palm",
+  "wrist_angle": "neutral",
+  "motion": "static"
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

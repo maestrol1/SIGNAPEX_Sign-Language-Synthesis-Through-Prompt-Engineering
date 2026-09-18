@@ -1,0 +1,22 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "palm_orientation": "facing_left",
+  "thumb_position": "extended_upward",
+  "thumb_flexion": "fully_extended",
+  "index_finger_state": "flexed_at_all_joints",
+  "middle_finger_state": "flexed_at_all_joints",
+  "ring_finger_state": "flexed_at_all_joints",
+  "pinky_finger_state": "flexed_at_all_joints",
+  "finger_grouping": "four_fingers_curled_into_fist",
+  "thumb_contact": "none",
+  "wrist_position": "neutral",
+  "hand_tension": "moderate_closure",
+  "visible_knuckles": "proximal_interphalangeal_joints_prominent",
+  "palm_visibility": "partial_visible_on_radial_side"
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

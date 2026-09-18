@@ -1,0 +1,24 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+# Handshape Analysis
+
+**Overall posture:** The hand is held vertically with the wrist in neutral alignment relative to the forearm. The forearm appears to be oriented upward and slightly toward the camera.
+
+**Palm orientation:** The palm faces inward (toward the signer's body), with the back of the hand visible to the camera.
+
+**Finger positions:**
+- **Thumb:** Extended upward, positioned along the radial (thumb) side of the hand, not in contact with other fingers.
+- **Index finger:** Extended upward alongside the thumb, parallel or nearly parallel to it.
+- **Middle finger:** Extended upward, positioned between the index and ring fingers.
+- **Ring finger:** Curled inward toward the palm, not visible as extended.
+- **Pinky:** Curled inward toward the palm, not visible as extended.
+
+**Contact and spacing:** The thumb and index finger are held close together but not touching. The middle finger is extended and separated from the thumb and index. The ring and pinky fingers are folded into the palm.
+
+**Motion:** The handshape appears static with no visible motion in this frame.
+
+FINAL_JSON:
+{"wrist_angle": "neutral", "forearm_orientation": "upward", "palm_orientation": "inward", "thumb": {"state": "extended", "position": "radial_side", "contact": "none"}, "index_finger": {"state": "extended", "position": "adjacent_to_thumb", "contact": "none"}, "middle_finger": {"state": "extended", "position": "central", "contact": "none"}, "ring_finger": {"state": "curled", "position": "folded_to_palm"}, "pinky_finger": {"state": "curled", "position": "folded_to_palm"}, "motion": "static"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

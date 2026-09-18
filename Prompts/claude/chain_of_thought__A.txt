@@ -1,0 +1,27 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+## Reasoning
+
+**Overall hand posture and wrist angle:**
+The hand is held with the wrist in a neutral to slightly extended position relative to the forearm. The hand is oriented vertically with fingers pointing upward.
+
+**Palm orientation:**
+The palm faces forward and slightly toward the camera, with the back of the hand visible from a three-quarter angle. The palm surface is mostly visible.
+
+**Finger positions:**
+- **Thumb:** Extended outward to the side (lateral extension from the palm), not touching other fingers.
+- **Index finger:** Fully extended upward, straight and separated from adjacent fingers.
+- **Middle finger:** Fully extended upward, straight and separated from adjacent fingers.
+- **Ring finger:** Fully extended upward, straight and separated from adjacent fingers.
+- **Pinky finger:** Fully extended upward, straight and separated from adjacent fingers.
+
+All four fingers (index through pinky) are held in parallel alignment, extended and separated from each other with visible gaps between them. The thumb is abducted away from the finger group.
+
+**Motion:**
+The handshape appears static with no visible motion in the photograph.
+
+FINAL_JSON:
+{"wrist_angle": "neutral_to_slightly_extended", "palm_orientation": "forward_three_quarter", "thumb": {"state": "extended", "position": "abducted_lateral", "contact": "none"}, "index_finger": {"state": "extended", "position": "upward", "contact": "none"}, "middle_finger": {"state": "extended", "position": "upward", "contact": "none"}, "ring_finger": {"state": "extended", "position": "upward", "contact": "none"}, "pinky_finger": {"state": "extended", "position": "upward", "contact": "none"}, "finger_spacing": "separated_with_visible_gaps", "motion": "static"}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.
