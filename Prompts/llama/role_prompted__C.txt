@@ -1,0 +1,53 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```
+{
+  "hand_orientation": {
+    "palm": "downward",
+    "wrist": "neutral"
+  },
+  "finger_positions": {
+    "thumb": {
+      "position": "abducted",
+      "extension": "partial",
+      "orientation": "opposable"
+    },
+    "index": {
+      "position": "extended",
+      "orientation": "upward"
+    },
+    "middle": {
+      "position": "flexed",
+      "joints": "all flexed"
+    },
+    "ring": {
+      "position": "flexed",
+      "joints": "all flexed"
+    },
+    "pinky": {
+      "position": "flexed",
+      "joints": "all flexed"
+    }
+  },
+  "finger_tips": {
+    "thumb": {
+      "contact": "none"
+    },
+    "index": {
+      "contact": "none"
+    },
+    "middle": {
+      "contact": "none"
+    },
+    "ring": {
+      "contact": "none"
+    },
+    "pinky": {
+      "contact": "none"
+    }
+  }
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

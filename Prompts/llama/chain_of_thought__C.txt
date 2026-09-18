@@ -1,0 +1,28 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand is positioned with the palm facing inward and slightly downward. The wrist angle relative to the forearm appears to be slightly extended.
+
+The palm orientation relative to the camera is inward.
+
+The thumb is extended and positioned away from the other fingers. The index finger is also extended. The middle, ring, and pinky fingers are curled.
+
+There is no visible contact between fingers or with the palm.
+
+The handshape appears to be held static, with no visible motion.
+
+FINAL_JSON:
+{
+  "hand_posture": "extended",
+  "wrist_angle": "slightly extended",
+  "palm_orientation": "inward",
+  "thumb": "extended",
+  "index": "extended",
+  "middle": "curled",
+  "ring": "curled",
+  "pinky": "curled",
+  "finger_contact": "none",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,12 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "palm_orientation": "forward",
+  "thumb": "opposite the index finger, not touching",
+  "fingers": "index, middle, ring, and pinky all curled into the palm, fingertips touching the palm",
+  "wrist_angle": "slightly extended",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

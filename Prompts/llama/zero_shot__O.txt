@@ -1,0 +1,6 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{"handshape": {"fingers": {"thumb": {"extended": true, "bent": true, "position": "opposite"}, "index": {"extended": false, "bent": true, "position": "against"}, "middle": {"extended": false, "bent": true, "position": "against"}, "ring": {"extended": false, "bent": true, "position": "against"}, "pinky": {"extended": false, "bent": true, "position": "against"}}, "palm": {"orientation": "neutral"}, "wrist": {"orientation": "neutral"}}}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

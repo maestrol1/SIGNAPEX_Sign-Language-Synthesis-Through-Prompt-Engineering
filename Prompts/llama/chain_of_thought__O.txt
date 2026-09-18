@@ -1,0 +1,25 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The handshape in the photograph shows a hand with the wrist angle slightly extended relative to the forearm. The palm orientation relative to the camera appears to be inward, with the palm facing towards the signer.
+
+The position of each finger is as follows:
+- The thumb is curled and appears to be touching the index finger.
+- The index finger is curled and is in contact with the thumb.
+- The middle, ring, and pinky fingers are fully closed, curled into the palm.
+
+The handshape seems to be held static, with no visible motion. 
+
+FINAL_JSON:
+{
+  "wrist_angle": "slightly extended",
+  "palm_orientation": "inward",
+  "thumb": {"position": "curled", "contact": "index"},
+  "index": {"position": "curled", "contact": "thumb"},
+  "middle": {"position": "fully closed", "contact": "palm"},
+  "ring": {"position": "fully closed", "contact": "palm"},
+  "pinky": {"position": "fully closed", "contact": "palm"},
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,23 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+```json
+{
+  "handshape": {
+    "fingers": [
+      {"extended": true, "bent": false, "position": "thumb"},
+      {"extended": false, "bent": true, "position": "index"},
+      {"extended": false, "bent": true, "position": "middle"},
+      {"extended": false, "bent": true, "position": "ring"},
+      {"extended": false, "bent": true, "position": "pinky"}
+    ],
+    "thumbPosition": "across"
+  },
+  "orientation": {
+    "palm": "towards viewer",
+    "fingers": "up"
+  }
+}
+```
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

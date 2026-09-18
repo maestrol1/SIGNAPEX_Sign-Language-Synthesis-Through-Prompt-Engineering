@@ -1,0 +1,28 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The handshape shown in the photograph can be analyzed as follows:
+
+The overall hand posture shows a relaxed wrist angle relative to the forearm, with the wrist not significantly flexed or extended. The palm orientation relative to the camera appears to be sideways, with the palm facing neither directly forward nor directly inward but more toward the side.
+
+The thumb is curled, tucked towards the palm. The index and middle fingers are extended, while the ring and pinky fingers are fully closed, curled into the palm.
+
+There is contact between the thumb and the curled fingers, but not between the extended fingers and any other fingers or the palm.
+
+The handshape appears to be held static, with no visible motion.
+
+FINAL_JSON:
+{
+  "hand_posture": "relaxed",
+  "wrist_angle": "neutral",
+  "palm_orientation": "sideways",
+  "thumb": "curled",
+  "index": "extended",
+  "middle": "extended",
+  "ring": "curled",
+  "pinky": "curled",
+  "contacts": ["thumb to curled fingers"],
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,23 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The handshape in the photograph shows a hand with the wrist angle slightly extended relative to the forearm. The palm orientation relative to the camera appears to be sideways, with the palm facing towards the right side of the image.
+
+The thumb is extended, while the index, middle, ring, and pinky fingers are curled. There is contact between the tips of the fingers and the palm; specifically, the index, middle, ring, and pinky fingers are touching the palm.
+
+The handshape appears to be held static, with no visible motion.
+
+FINAL_JSON:
+{
+  "wrist_angle": "extended",
+  "palm_orientation": "sideways",
+  "thumb": "extended",
+  "index": "curled",
+  "middle": "curled",
+  "ring": "curled",
+  "pinky": "curled",
+  "finger_contact": "palm",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.
