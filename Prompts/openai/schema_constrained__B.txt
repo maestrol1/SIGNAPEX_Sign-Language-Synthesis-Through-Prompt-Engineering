@@ -1,0 +1,17 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handshape_category": "open_palm",
+  "palm_orientation": "forward",
+  "thumb": "crossing_palm",
+  "index_finger": "extended",
+  "middle_finger": "extended",
+  "ring_finger": "extended",
+  "pinky_finger": "extended",
+  "finger_contacts": "Index, middle, ring, and pinky are held together side-by-side; thumb lies across the palm with the thumb tip resting against the side of the ring finger area.",
+  "wrist_angle": "neutral",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

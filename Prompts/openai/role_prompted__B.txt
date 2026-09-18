@@ -1,0 +1,72 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand": {
+    "laterality": "right",
+    "visibility": "full hand visible from wrist to fingertips"
+  },
+  "palm_orientation": {
+    "palm_facing": "toward camera",
+    "dorsum_facing": "away from camera",
+    "palm_plane": "approximately vertical"
+  },
+  "wrist": {
+    "flexion_extension": "neutral to slight extension",
+    "radial_ulnar_deviation": "neutral to slight ulnar deviation",
+    "forearm_rotation": "supinated (palm presented)"
+  },
+  "thumb": {
+    "carpometacarpal_CMC": "adducted across palm (thumb drawn inward toward ulnar side)",
+    "metacarpophalangeal_MCP": "flexed",
+    "interphalangeal_IP": "slightly flexed",
+    "tip_location": "thumb tip rests on/near the palmar surface at the base of the ulnar fingers (near ring/pinky metacarpal region)",
+    "thumb_pad_contact": "thumb pad appears to press against the side/base of the folded little finger region"
+  },
+  "index_finger": {
+    "MCP": "extended",
+    "PIP": "extended",
+    "DIP": "extended to very slight flexion",
+    "abduction_adduction": "adducted (close to middle finger)",
+    "tip_direction": "upward (toward top of image)"
+  },
+  "middle_finger": {
+    "MCP": "extended",
+    "PIP": "extended",
+    "DIP": "extended to very slight flexion",
+    "abduction_adduction": "adducted (close to index and ring fingers)",
+    "tip_direction": "upward"
+  },
+  "ring_finger": {
+    "MCP": "extended",
+    "PIP": "extended",
+    "DIP": "extended to very slight flexion",
+    "abduction_adduction": "adducted (close to middle finger)",
+    "tip_direction": "upward"
+  },
+  "little_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "position": "folded into palm on ulnar side",
+    "contact": "held down by the thumb across the palm"
+  },
+  "inter_finger_relationships": {
+    "index_middle_ring": "pads/phalanges held close together with minimal gaps; approximately parallel",
+    "ring_little": "little finger folded while ring finger remains extended; visible separation due to little finger flexion"
+  },
+  "overall_handshape_summary": {
+    "extended_digits": [
+      "index",
+      "middle",
+      "ring"
+    ],
+    "folded_digits": [
+      "little"
+    ],
+    "thumb_position": "across palm, restraining the folded little finger",
+    "tension": "moderate (fingers held straight and aligned)"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

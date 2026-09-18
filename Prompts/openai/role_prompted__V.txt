@@ -1,0 +1,69 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handedness": "right",
+  "handshape_overview": {
+    "selected_fingers": ["index", "middle"],
+    "non_selected_fingers": ["ring", "pinky"],
+    "overall_description": "Index and middle fingers extended upward and separated; ring and pinky folded into palm; thumb folded across the front of the folded fingers."
+  },
+  "palm_orientation": {
+    "palm_facing": "toward_camera",
+    "dorsum_facing": "away_from_camera",
+    "radial_ulnar_orientation": "radial (thumb/index) side appears on viewer-left; ulnar (pinky) side on viewer-right"
+  },
+  "wrist": {
+    "flexion_extension": "neutral_to_slight_extension",
+    "radial_ulnar_deviation": "neutral",
+    "forearm_rotation": "supinated (palm presented to camera)"
+  },
+  "thumb": {
+    "carpometacarpal_CMC": "adducted",
+    "metacarpophalangeal_MCP": "flexed",
+    "interphalangeal_IP": "flexed",
+    "position_relative_to_hand": "thumb crosses the palm and rests over the folded ring/pinky region; thumbnail partially visible",
+    "thumb_tip_location": "over/near the distal phalanx region of the folded fingers (front of fist)"
+  },
+  "index_finger": {
+    "MCP": "extended",
+    "PIP": "extended",
+    "DIP": "extended",
+    "abduction_adduction": "abducted away from middle (forms one side of a V)",
+    "tip_direction": "upward"
+  },
+  "middle_finger": {
+    "MCP": "extended",
+    "PIP": "extended",
+    "DIP": "extended",
+    "abduction_adduction": "abducted away from index (forms the other side of a V)",
+    "tip_direction": "upward"
+  },
+  "ring_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "position_relative_to_palm": "folded into palm; largely obscured by thumb and other fingers"
+  },
+  "pinky_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "position_relative_to_palm": "folded into palm; nail partially visible near the base of the fist"
+  },
+  "inter_finger_spacing": {
+    "index_middle": "clearly separated with a moderate V-shaped gap",
+    "middle_ring": "ring folded; separation not applicable/obscured",
+    "ring_pinky": "both folded together; minimal visible separation"
+  },
+  "visible_contact_points": [
+    "thumb pad contacting/covering the folded ring/pinky fingers on the palmar side"
+  ],
+  "notes_on_visibility": {
+    "fingertips_visible": ["index", "middle"],
+    "folded_fingertips_visible": ["pinky (partially)"],
+    "occlusions": "ring finger mostly occluded by thumb and hand posture"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,81 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+Overall posture: One hand held upright in front of the camera. The forearm comes up from the bottom of frame; the wrist looks mostly neutral with a slight bend so the hand is vertical. The hand is in a “two-fingers-up” configuration with the other fingers folded.
+
+Palm orientation: The palm/inner surface is facing mostly toward the camera (palmar side visible), with only a slight rotation so the thumb side is a bit closer to the camera than the pinky side.
+
+Finger positions:
+- Thumb: Flexed and drawn across the front of the hand toward the palm-side of the folded fingers. The thumb pad and thumbnail are visible; the thumb tip rests against/near the side/front of the curled fingers (appears to press near the middle/ring finger area rather than sticking out).
+- Index: Extended straight upward. Joints mostly straight (minimal curl). Separated from the middle finger, forming a clear “V” gap.
+- Middle: Extended straight upward, roughly parallel to the index but slightly more vertical. Joints mostly straight.
+- Ring: Fully flexed/curled into the palm (not extended). Knuckle area is down; fingertip not visible, suggesting it is tucked into the palm.
+- Pinky: Fully flexed/curled into the palm (not extended), tucked alongside the ring finger.
+
+Contacts:
+- Thumb is in contact with (or pressing against) the folded fingers on the palm side.
+- Ring and pinky are folded into the palm and likely contacting the palm surface.
+- Index and middle are not touching; they are separated by a moderate gap.
+
+Motion: No motion visible; appears to be a static held handshape.
+
+FINAL_JSON:
+{
+  "hand_count": 1,
+  "overall_hand_posture": {
+    "hand_upright": true,
+    "wrist_flexion_extension": "near_neutral",
+    "wrist_radial_ulnar_deviation": "slight_ulnar_deviation",
+    "finger_grouping": "index_and_middle_extended_up; ring_and_pinky_folded; thumb_across_folded_fingers"
+  },
+  "palm_orientation_relative_to_camera": {
+    "palm_facing": "forward",
+    "rotation": "slight_thumb_side_closer_to_camera"
+  },
+  "fingers": {
+    "thumb": {
+      "state": "curled",
+      "details": "thumb flexed across front of palm toward folded fingers; thumbnail visible; not pointing upward",
+      "contacts": [
+        "touching_folded_fingers_palm_side"
+      ]
+    },
+    "index": {
+      "state": "extended",
+      "details": "extended upward with minimal joint bend",
+      "contacts": [],
+      "separation_from_adjacent": {
+        "middle": "moderate_gap"
+      }
+    },
+    "middle": {
+      "state": "extended",
+      "details": "extended upward with minimal joint bend; roughly parallel to index",
+      "contacts": [],
+      "separation_from_adjacent": {
+        "index": "moderate_gap"
+      }
+    },
+    "ring": {
+      "state": "fully_closed",
+      "details": "folded down into palm; fingertip not visible (tucked)",
+      "contacts": [
+        "touching_palm",
+        "compressed_by_thumb"
+      ]
+    },
+    "pinky": {
+      "state": "fully_closed",
+      "details": "folded down into palm alongside ring finger; fingertip not visible (tucked)",
+      "contacts": [
+        "touching_palm"
+      ]
+    }
+  },
+  "handshape_motion": {
+    "present": false,
+    "description": "static_hold"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

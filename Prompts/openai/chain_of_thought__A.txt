@@ -1,0 +1,62 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand is held in a compact fist-like posture with one digit extended. The wrist appears mostly neutral relative to the forearm, with a slight bend so the knuckles are presented toward the camera. The back of the hand (dorsal side) and fingernails are visible, indicating the palm is oriented away from the camera; the hand is rotated so the thumb-side edge is on the right side of the image.
+
+Four fingers (index, middle, ring, pinky) are flexed and tucked down into the palm. Their distal segments are curled; fingernails face the camera. The fingertips appear to press into or near the center of the palm, forming a closed fist shape. The thumb is extended straight upward along the side of the hand; it is not tucked across the front of the fingers and does not appear to contact the fingertips. No motion cues are visible; the handshape is static in the photograph.
+
+FINAL_JSON:
+{
+  "hand_count": 1,
+  "overall_hand_posture": "compact fist with one digit extended upward",
+  "wrist": {
+    "relative_to_forearm": "mostly neutral",
+    "flexion_extension": "slight extension (knuckles presented toward camera)",
+    "radial_ulnar_deviation": "approximately neutral",
+    "pronation_supination": "rotated so back of hand faces camera"
+  },
+  "palm_orientation": {
+    "relative_to_camera": "away",
+    "notes": "dorsal side and fingernails visible; thumb-side edge on right side of image"
+  },
+  "fingers": {
+    "thumb": {
+      "state": "extended",
+      "joint_posture": "largely straight, pointing upward",
+      "abduction_adduction": "slightly abducted away from the fist (side of hand)",
+      "contacts": []
+    },
+    "index": {
+      "state": "curled_closed",
+      "joint_posture": "flexed at MCP/PIP/DIP into palm",
+      "contacts": ["fingertip_to_palm", "adjacent_finger_contact"]
+    },
+    "middle": {
+      "state": "curled_closed",
+      "joint_posture": "flexed at MCP/PIP/DIP into palm",
+      "contacts": ["fingertip_to_palm", "adjacent_finger_contact"]
+    },
+    "ring": {
+      "state": "curled_closed",
+      "joint_posture": "flexed at MCP/PIP/DIP into palm",
+      "contacts": ["fingertip_to_palm", "adjacent_finger_contact"]
+    },
+    "pinky": {
+      "state": "curled_closed",
+      "joint_posture": "flexed at MCP/PIP/DIP into palm",
+      "contacts": ["fingertip_to_palm", "adjacent_finger_contact"]
+    }
+  },
+  "interfinger_contacts": [
+    "index-middle side contact",
+    "middle-ring side contact",
+    "ring-pinky side contact"
+  ],
+  "thumb_to_finger_contact": "none visible",
+  "motion": {
+    "present": false,
+    "description": "static handshape"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

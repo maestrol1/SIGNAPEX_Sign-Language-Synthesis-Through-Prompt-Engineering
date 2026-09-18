@@ -1,0 +1,80 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handedness": "left",
+  "handshape_overview": {
+    "configuration": "four fingers flexed and adducted; thumb extended and abducted",
+    "tension": "moderate",
+    "symmetry_notes": "index, middle, ring, and little fingers form a compact cluster with fingertips aligned near the same height"
+  },
+  "palm_orientation": {
+    "palm_facing": "toward_camera",
+    "palm_rotation": "slightly rotated so ulnar edge is a bit farther from camera than radial edge"
+  },
+  "wrist": {
+    "flexion_extension": "slight extension (dorsiflexion)",
+    "radial_ulnar_deviation": "neutral to slight ulnar deviation",
+    "forearm_pronation_supination": "pronated (palm presented forward)"
+  },
+  "thumb": {
+    "carpometacarpal_CMC": {
+      "abduction_adduction": "abducted (held away from palm)",
+      "flexion_extension": "extended"
+    },
+    "metacarpophalangeal_MCP": {
+      "flexion_extension": "near neutral to slight flexion"
+    },
+    "interphalangeal_IP": {
+      "flexion_extension": "extended"
+    },
+    "direction": "thumb points laterally to the right side of the image",
+    "contact": {
+      "touching_other_fingers": "no",
+      "touching_palm": "no"
+    }
+  },
+  "index_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "abduction_adduction": "adducted (close to middle finger)",
+    "tip_direction": "toward the right side of the image and slightly upward",
+    "contact": "fingertip close to/meeting the adjacent fingertips cluster"
+  },
+  "middle_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "abduction_adduction": "adducted (close to index and ring fingers)",
+    "tip_direction": "toward the right side of the image and slightly upward",
+    "contact": "fingertip close to/meeting adjacent fingertips"
+  },
+  "ring_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "abduction_adduction": "adducted (close to middle and little fingers)",
+    "tip_direction": "toward the right side of the image and slightly upward",
+    "contact": "fingertip close to/meeting adjacent fingertips"
+  },
+  "little_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "abduction_adduction": "adducted (close to ring finger)",
+    "tip_direction": "toward the right side of the image and slightly upward",
+    "contact": "fingertip close to/meeting adjacent fingertips"
+  },
+  "inter_finger_relationships": {
+    "finger_spread": "minimal; fingers held together",
+    "fingertip_plane": "index–little fingertips form a tight, nearly level row at the top of the hand",
+    "thumb_to_fingers_gap": "clear gap between thumb tip and the clustered fingertips"
+  },
+  "visibility_notes": {
+    "dorsal_vs_palmar": "palmar surface and finger pads are predominantly visible; nails minimally visible",
+    "occlusions": "some finger segments partially occlude each other due to tight flexion and adduction"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

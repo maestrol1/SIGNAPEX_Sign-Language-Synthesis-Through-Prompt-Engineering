@@ -1,0 +1,60 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand": {
+    "laterality": "right",
+    "view": "back_of_hand_visible",
+    "forearm_position": "forearm_upward_into_frame_from_bottom; wrist slightly flexed so fist is upright"
+  },
+  "palm_orientation": {
+    "palm_facing": "away_from_camera",
+    "back_of_hand_facing": "toward_camera",
+    "rotation": "slightly rotated so index finger is on the viewer-right side of the hand"
+  },
+  "fingers": {
+    "index": {
+      "state": "extended",
+      "mcp": "extended",
+      "pip": "extended",
+      "dip": "extended",
+      "direction": "upward (toward top of frame)",
+      "separation_from_others": "clearly separated from the folded fingers"
+    },
+    "middle": {
+      "state": "folded",
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "curled into fist; tip not visible"
+    },
+    "ring": {
+      "state": "folded",
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "curled into fist; tip not visible"
+    },
+    "pinky": {
+      "state": "folded",
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "curled into fist; tip not visible"
+    },
+    "thumb": {
+      "state": "folded/across",
+      "mcp": "flexed",
+      "ip": "flexed",
+      "position_relative_to_fist": "lying across the front/side of the folded fingers near the base of the index; thumb tip not clearly visible",
+      "contact": "appears to press against the curled fingers"
+    }
+  },
+  "overall_handshape": {
+    "shape_description": "closed fist with only the index finger extended straight up",
+    "tension": "firm/compact fist",
+    "visible_nails": "nails visible on folded fingers, indicating back-of-hand presentation"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

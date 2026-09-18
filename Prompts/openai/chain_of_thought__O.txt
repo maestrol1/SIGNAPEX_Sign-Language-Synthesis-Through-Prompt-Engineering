@@ -1,0 +1,70 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand is held in a compact fist-like posture. The wrist appears mostly neutral with a slight bend so the hand sits upright; the forearm comes up from the bottom of the image and the knuckles are near the top.
+
+The palm side of the hand is largely visible to the camera (palmar creases and the thenar area are visible), but the hand is slightly rotated so the thumb side is a bit more prominent (a mild yaw/turn toward the thumb side).
+
+Finger positions: the index, middle, ring, and pinky are all flexed (curled) into the palm, forming a fist. Their distal segments appear tucked; the fingernails are visible near the front/top of the fist, suggesting the fingertips are folded inward and resting against the palm area rather than extended. The fingers are held close together with contact between adjacent fingers.
+
+The thumb is extended and held upright along the side of the fist (thumb pointing upward in the image). The thumb is not crossing over the front of the fingers; it sits outside the curled fingers, with the thumb pad facing slightly toward the camera/left. No obvious thumb-to-fingertip contact is visible.
+
+No motion is visible; the handshape is static in this frame.
+
+FINAL_JSON:
+{
+  "handedness": "right",
+  "overall_posture": {
+    "description": "compact fist-like hand; knuckles up, hand held upright",
+    "wrist_angle_relative_to_forearm": {
+      "flexion_extension": "near neutral to slight extension (hand upright)",
+      "radial_ulnar_deviation": "near neutral",
+      "pronation_supination": "slightly supinated/turned so palm is mostly visible"
+    }
+  },
+  "palm_orientation_relative_to_camera": {
+    "primary": "forward (palm mostly facing camera)",
+    "secondary_rotation": "slightly rotated toward thumb side"
+  },
+  "fingers": {
+    "thumb": {
+      "state": "extended",
+      "direction": "upward along the side of the fist",
+      "joints": {
+        "cmc": "abducted away from palm",
+        "mcp": "slightly flexed",
+        "ip": "mostly straight"
+      },
+      "contact": {
+        "with_index": "no clear contact visible",
+        "with_palm": "base near thenar region; otherwise held outside the fist"
+      }
+    },
+    "index": {
+      "state": "curled",
+      "curl_degree": "fully flexed into fist",
+      "contact": "in contact with middle finger and palm; fingertip tucked"
+    },
+    "middle": {
+      "state": "curled",
+      "curl_degree": "fully flexed into fist",
+      "contact": "in contact with index and ring fingers and palm; fingertip tucked"
+    },
+    "ring": {
+      "state": "curled",
+      "curl_degree": "fully flexed into fist",
+      "contact": "in contact with middle and pinky fingers and palm; fingertip tucked"
+    },
+    "pinky": {
+      "state": "curled",
+      "curl_degree": "fully flexed into fist",
+      "contact": "in contact with ring finger and palm; fingertip tucked"
+    }
+  },
+  "motion": {
+    "present": false,
+    "description": "static hold"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

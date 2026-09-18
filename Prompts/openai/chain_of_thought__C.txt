@@ -1,0 +1,107 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+The hand is held upright in front of the camera with the forearm rising from the bottom of the frame. The wrist looks mostly neutral with a slight bend so the hand leans a bit toward the thumb side (radial deviation), and the knuckles are closer to the camera than the fingertips (fingers slightly curled toward the palm).
+
+The palm surface is largely visible, so the palm is oriented mostly toward the camera, with a slight rotation so the thumb side is a bit more forward.
+
+Thumb: extended away from the palm to the right side of the image, roughly straight at the MCP with a gentle bend at the IP; it is separated from the other fingertips (no visible contact).
+
+Index, middle, ring, pinky: all four fingers are flexed/curled. Their MCP joints are bent; the PIP and DIP joints are also bent so the fingertips arc forward and slightly rightward. The four fingertips are grouped closely together at the top, appearing to touch or nearly touch each other (adjacent finger contact), forming a compact cluster; no fingertip is extended straight.
+
+No motion is visible; this appears to be a static held handshape.
+
+FINAL_JSON:
+{
+  "handedness_inferred_from_thumb_position": "right",
+  "overall_posture": {
+    "hand_upright": true,
+    "wrist_flexion_extension": "near_neutral",
+    "wrist_radial_ulnar_deviation": "slight_radial_deviation_toward_thumb_side",
+    "finger_cluster_position_relative_to_palm": "fingertips curled toward palm, forming a compact cluster above the knuckles"
+  },
+  "palm_orientation_relative_to_camera": {
+    "primary": "forward",
+    "secondary_rotation": "slightly turned so thumb-side is a bit closer to camera"
+  },
+  "fingers": {
+    "thumb": {
+      "state": "extended",
+      "joint_bends": {
+        "mcp": "slightly_bent",
+        "ip": "slightly_bent"
+      },
+      "direction": "points outward to image-right (away from palm)",
+      "contacts": {
+        "with_index": "no_visible_contact",
+        "with_other_fingers": "no_visible_contact",
+        "with_palm": "no"
+      }
+    },
+    "index": {
+      "state": "curled",
+      "joint_bends": {
+        "mcp": "bent",
+        "pip": "bent",
+        "dip": "bent"
+      },
+      "fingertip_direction": "forward and slightly to image-right",
+      "contacts": {
+        "with_middle": "adjacent_contact_or_near_contact_at_fingertip_region",
+        "with_thumb": "no_visible_contact",
+        "with_palm": "not_fully_pressed; held curled above palm"
+      }
+    },
+    "middle": {
+      "state": "curled",
+      "joint_bends": {
+        "mcp": "bent",
+        "pip": "bent",
+        "dip": "bent"
+      },
+      "fingertip_direction": "forward and slightly to image-right",
+      "contacts": {
+        "with_index": "adjacent_contact_or_near_contact_at_fingertip_region",
+        "with_ring": "adjacent_contact_or_near_contact_at_fingertip_region",
+        "with_palm": "not_fully_pressed; held curled above palm"
+      }
+    },
+    "ring": {
+      "state": "curled",
+      "joint_bends": {
+        "mcp": "bent",
+        "pip": "bent",
+        "dip": "bent"
+      },
+      "fingertip_direction": "forward and slightly to image-right",
+      "contacts": {
+        "with_middle": "adjacent_contact_or_near_contact_at_fingertip_region",
+        "with_pinky": "adjacent_contact_or_near_contact_at_fingertip_region",
+        "with_palm": "not_fully_pressed; held curled above palm"
+      }
+    },
+    "pinky": {
+      "state": "curled",
+      "joint_bends": {
+        "mcp": "bent",
+        "pip": "bent",
+        "dip": "bent"
+      },
+      "fingertip_direction": "forward and slightly to image-right",
+      "contacts": {
+        "with_ring": "adjacent_contact_or_near_contact_at_fingertip_region",
+        "with_palm": "not_fully_pressed; held curled above palm"
+      }
+    }
+  },
+  "inter_finger_configuration": {
+    "four_finger_grouping": "index-middle-ring-pinky held tightly together with minimal spread",
+    "fingertips_form": "compact clustered tips/upper pads; no single finger extended independently"
+  },
+  "motion": {
+    "present": false,
+    "description": "static hold (no visible movement in the still image)"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

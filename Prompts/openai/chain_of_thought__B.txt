@@ -1,0 +1,75 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+Overall posture: One hand held upright in front of the camera with fingers pointing upward. Wrist appears mostly neutral with a slight bend so the palm faces the camera squarely; forearm comes up from the bottom of frame.
+
+Palm orientation: Palm faces toward the camera (forward). Finger pad surfaces are mostly not visible; palmar creases are visible.
+
+Finger positions:
+- Thumb: Bent/flexed across the front of the palm (thumb tip pointing toward the ulnar side). The thumb pad appears to press against the side/base area of the little-finger side of the hand (near the pinky/ring finger region). Thumb is not extended outward.
+- Index: Extended straight upward; joints largely straight. Held close to middle finger; no noticeable splay.
+- Middle: Extended straight upward; very close to index and ring fingers.
+- Ring: Extended upward; slightly less straight than index/middle (subtle flex at interphalangeal joints), still generally extended. Close to middle finger.
+- Pinky: Extended upward and aligned with the other fingers; slightly separated from ring finger by a small gap compared to the other pairs, but still generally grouped. Slight natural curve.
+
+Inter-finger contact: Index, middle, and ring fingers appear in contact or nearly touching along their sides. Ring and pinky are near each other with a small visible separation. Thumb contacts the palm and appears to press against the ulnar side near the base/side of the pinky/ring area.
+
+Motion: No motion visible; static held handshape.
+
+FINAL_JSON:
+{
+  "hand_count": 1,
+  "overall_hand_posture": {
+    "hand_upright": true,
+    "fingers_point_direction": "up",
+    "wrist_angle_relative_to_forearm": "mostly neutral with slight bend to present palm toward camera"
+  },
+  "palm_orientation_relative_to_camera": "forward",
+  "finger_configuration": {
+    "thumb": {
+      "state": "curled",
+      "details": "thumb folded across the front of the palm toward the ulnar (pinky) side",
+      "contacts": [
+        "palm",
+        "ulnar side near base/side of pinky/ring region"
+      ]
+    },
+    "index": {
+      "state": "extended",
+      "joint_flexion": "mostly straight",
+      "abduction_adduction": "held close to middle finger",
+      "contacts": [
+        "middle finger (side contact or near-contact)"
+      ]
+    },
+    "middle": {
+      "state": "extended",
+      "joint_flexion": "mostly straight",
+      "abduction_adduction": "held close to index and ring fingers",
+      "contacts": [
+        "index finger (side contact or near-contact)",
+        "ring finger (side contact or near-contact)"
+      ]
+    },
+    "ring": {
+      "state": "extended",
+      "joint_flexion": "slight flex at interphalangeal joints but generally straight",
+      "abduction_adduction": "held close to middle finger; near pinky",
+      "contacts": [
+        "middle finger (side contact or near-contact)"
+      ]
+    },
+    "pinky": {
+      "state": "extended",
+      "joint_flexion": "slight natural curve",
+      "abduction_adduction": "slightly separated from ring finger compared to other finger gaps",
+      "contacts": []
+    }
+  },
+  "handshape_motion": {
+    "present": false,
+    "description": "static hold"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

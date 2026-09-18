@@ -1,0 +1,66 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handedness": "right",
+  "handshape_overview": "closed fist with thumb extended upward along radial side",
+  "wrist": {
+    "flexion_extension": "neutral to slight extension",
+    "radial_ulnar_deviation": "neutral",
+    "forearm_orientation_in_frame": "forearm vertical; wrist at bottom of image"
+  },
+  "palm_orientation": {
+    "palm_visibility": "mostly visible (palmar surface and wrist creases visible)",
+    "palm_facing_direction": "toward camera with slight leftward yaw (thumb side more prominent)"
+  },
+  "thumb": {
+    "carpometacarpal_CMC": "abducted (thumb separated from index side)",
+    "metacarpophalangeal_MCP": "extended",
+    "interphalangeal_IP": "slightly flexed",
+    "thumb_direction": "points upward (toward top of image), along the radial edge of the hand",
+    "thumb_pad_visibility": "lateral/thumb-pad edge visible; nail not prominent",
+    "contact": "thumb does not contact fingertips; base of thumb adjacent to index knuckle region"
+  },
+  "index_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_location": "tucked into palm",
+    "nail_visibility": "not visible",
+    "contact": "index fingertip pressed against palmar surface"
+  },
+  "middle_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_location": "tucked into palm",
+    "nail_visibility": "not visible",
+    "contact": "middle fingertip pressed against palmar surface"
+  },
+  "ring_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_location": "tucked into palm",
+    "nail_visibility": "not visible",
+    "contact": "ring fingertip pressed against palmar surface"
+  },
+  "little_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_location": "tucked into palm",
+    "nail_visibility": "not visible",
+    "contact": "little fingertip pressed against palmar surface"
+  },
+  "finger_alignment_and_spacing": {
+    "four_fingers": "stacked closely together in a compact fist; knuckles form a rounded ridge",
+    "gaps_between_fingers": "minimal/none visible"
+  },
+  "notable_contacts": [
+    "all four fingertips contact the palm",
+    "thumb remains separated from the curled fingers (no fingertip-to-thumb contact visible)"
+  ]
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

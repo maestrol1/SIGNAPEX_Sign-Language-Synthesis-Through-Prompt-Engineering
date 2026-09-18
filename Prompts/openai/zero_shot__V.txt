@@ -1,0 +1,63 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand": "right",
+  "visibility": {
+    "palm_visible": true,
+    "back_of_hand_visible": false,
+    "wrist_visible": true
+  },
+  "orientation": {
+    "palm_direction": "toward_camera",
+    "finger_direction": "upward",
+    "hand_rotation": "mostly upright; slight rotation so thumb side is slightly toward camera"
+  },
+  "thumb": {
+    "state": "flexed",
+    "mcp": "adducted_across_palm",
+    "ip": "slightly_flexed",
+    "tip_location": "resting across the front of the curled fingers near the index-side of the palm (around the base of the index/middle area)",
+    "visibility": "thumb nail partially visible"
+  },
+  "index": {
+    "state": "extended",
+    "mcp": "extended",
+    "pip": "extended",
+    "dip": "extended",
+    "abduction_from_middle": "abducted (spread away from middle finger)",
+    "tip_direction": "up"
+  },
+  "middle": {
+    "state": "extended",
+    "mcp": "extended",
+    "pip": "extended",
+    "dip": "extended",
+    "abduction_from_index": "abducted (spread away from index finger)",
+    "tip_direction": "up"
+  },
+  "ring": {
+    "state": "folded",
+    "mcp": "flexed",
+    "pip": "flexed",
+    "dip": "flexed",
+    "tip_location": "tucked into palm",
+    "visibility": "mostly hidden"
+  },
+  "pinky": {
+    "state": "folded",
+    "mcp": "flexed",
+    "pip": "flexed",
+    "dip": "flexed",
+    "tip_location": "tucked into palm",
+    "visibility": "partially visible at lower palm edge"
+  },
+  "finger_spread": {
+    "index_middle": "wide_V_shape_gap",
+    "middle_ring": "closed (ring folded)",
+    "ring_pinky": "closed (both folded)"
+  },
+  "overall_handshape_summary": "Index and middle fingers straight and separated in a V; ring and pinky curled into the palm; thumb folded across the curled fingers on the palm-facing side."
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,70 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handedness": "right",
+  "handshape_overall": "closed fist with thumb extended upward",
+  "wrist": {
+    "flexion_extension": "neutral to slight extension",
+    "radial_ulnar_deviation": "neutral",
+    "forearm_rotation": "neutral to slight supination (thumb-side edge more visible than pinky-side)"
+  },
+  "palm_orientation": {
+    "palm_facing": "slightly toward camera and slightly toward left",
+    "back_of_hand_facing": "slightly away from camera"
+  },
+  "hand_axis_orientation": {
+    "metacarpals_direction": "upward (toward top of image)",
+    "thumb_direction": "upward"
+  },
+  "thumb": {
+    "carpometacarpal_CMC": {
+      "abduction_adduction": "abducted (separated from index side)",
+      "flexion_extension": "extended"
+    },
+    "metacarpophalangeal_MCP": {
+      "flexion_extension": "slight flexion"
+    },
+    "interphalangeal_IP": {
+      "flexion_extension": "near full extension"
+    },
+    "tip_position_relative_to_hand": "thumb tip above the curled fingers; thumb pad faces slightly leftward"
+  },
+  "index_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_contact": "fingertip tucked toward palm; not contacting thumb",
+    "nail_visibility": "nail partially visible"
+  },
+  "middle_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_contact": "fingertip tucked toward palm",
+    "nail_visibility": "nail clearly visible"
+  },
+  "ring_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_contact": "fingertip tucked toward palm",
+    "nail_visibility": "nail partially visible"
+  },
+  "pinky_finger": {
+    "MCP": "flexed",
+    "PIP": "flexed",
+    "DIP": "flexed",
+    "tip_contact": "fingertip tucked toward palm",
+    "nail_visibility": "nail not clearly visible (mostly occluded)"
+  },
+  "interdigit_relations": {
+    "fingers_togetherness": "index, middle, ring, and pinky held together in a compact fist",
+    "thumb_index_relation": "thumb separated from index by a visible gap; no pinch or contact"
+  },
+  "visible_contacts": [
+    "fingertips folded into the palm region (exact contact points not fully visible)"
+  ]
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

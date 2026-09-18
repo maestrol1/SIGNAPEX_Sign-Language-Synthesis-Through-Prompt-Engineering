@@ -1,0 +1,60 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand": "right",
+  "visibility": {
+    "hand_fully_visible": true,
+    "wrist_visible": true,
+    "forearm_visible": true
+  },
+  "palm_orientation": {
+    "palm_facing": "mostly_toward_camera",
+    "rotation": "slightly_toward_thumb_side"
+  },
+  "handshape": {
+    "overall_shape": "closed_fist_with_thumb_extended_up",
+    "thumb": {
+      "metacarpophalangeal_flexion": "slight",
+      "interphalangeal_flexion": "slight",
+      "abduction": "away_from_index",
+      "position_relative_to_fingers": "thumb held outside the fist along the side",
+      "direction": "upward"
+    },
+    "index": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "tucked into palm",
+      "contact": "folded against palm/other fingers"
+    },
+    "middle": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "tucked into palm",
+      "contact": "folded against palm/other fingers"
+    },
+    "ring": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "tucked into palm",
+      "contact": "folded against palm/other fingers"
+    },
+    "pinky": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "tip_position": "tucked into palm",
+      "contact": "folded against palm/other fingers"
+    },
+    "finger_spacing": "fingers held together in a compact fist"
+  },
+  "wrist": {
+    "flexion_extension": "neutral_to_slight_extension",
+    "radial_ulnar_deviation": "neutral"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

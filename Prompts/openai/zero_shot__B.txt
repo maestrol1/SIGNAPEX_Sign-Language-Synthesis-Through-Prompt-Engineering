@@ -1,0 +1,68 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand": "right",
+  "visibility": {
+    "palmVisible": true,
+    "backOfHandVisible": false,
+    "wristVisible": true
+  },
+  "orientation": {
+    "palmFacing": "camera",
+    "fingersDirection": "up",
+    "thumbDirection": "across_palm_toward_index_side",
+    "wristRotation": "neutral_to_slightly_supinated",
+    "handTilt": "slight_ulnar_tilt"
+  },
+  "fingers": {
+    "index": {
+      "mcp": "extended",
+      "pip": "extended",
+      "dip": "extended",
+      "abduction": "slight_adducted_toward_middle",
+      "notes": "held straight and together with middle/ring"
+    },
+    "middle": {
+      "mcp": "extended",
+      "pip": "extended",
+      "dip": "extended",
+      "abduction": "neutral",
+      "notes": "held straight; fingertip highest/most prominent"
+    },
+    "ring": {
+      "mcp": "extended",
+      "pip": "extended",
+      "dip": "extended",
+      "abduction": "slight_adducted_toward_middle",
+      "notes": "held straight alongside index/middle"
+    },
+    "pinky": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "flexed",
+      "abduction": "adducted_toward_ring",
+      "notes": "folded down into the palm; mostly covered by thumb"
+    },
+    "thumb": {
+      "cmc": "adducted_across_palm",
+      "mcp": "slightly_flexed",
+      "ip": "slightly_flexed",
+      "contact": {
+        "touching": true,
+        "contactWith": "pinky (folded) / lower palm area",
+        "location": "thumb pad resting across the palm over the folded little finger region"
+      },
+      "notes": "thumb lies diagonally across the palm rather than pointing upward"
+    }
+  },
+  "fingerGroupRelations": {
+    "index_middle_ring": "together_parallel",
+    "pinky": "tucked",
+    "thumbOverPinky": true
+  },
+  "tension": "firm_hold",
+  "movement": "none_detected"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

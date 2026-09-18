@@ -1,0 +1,17 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "handshape_category": "pointing",
+  "palm_orientation": "inward",
+  "thumb": "crossing_palm",
+  "index_finger": "extended",
+  "middle_finger": "curled",
+  "ring_finger": "curled",
+  "pinky_finger": "curled",
+  "finger_contacts": "Thumb rests across the front of the curled fingers; middle, ring, and pinky are folded into the palm.",
+  "wrist_angle": "neutral",
+  "motion": "static"
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.

@@ -1,0 +1,58 @@
+Right hand. Start with all fingers naturally spread, relaxed open hand.
+Then perform the following:
+
+{
+  "hand": "left",
+  "palmVisibility": "mostly_visible",
+  "palmOrientation": {
+    "facing": "toward_camera",
+    "tilt": "slightly_left"
+  },
+  "wrist": {
+    "rotation": "neutral_to_slight_supination",
+    "deviation": "slight_ulnar_deviation"
+  },
+  "fingers": {
+    "index": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "slightly_flexed",
+      "abduction": "adducted_toward_middle",
+      "tipPosition": "curled_forward_and_down; fingertip near the other fingertips (clustered)"
+    },
+    "middle": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "slightly_flexed",
+      "abduction": "neutral",
+      "tipPosition": "curled forward and down; fingertip at the front of the finger cluster"
+    },
+    "ring": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "slightly_flexed",
+      "abduction": "adducted_toward_middle",
+      "tipPosition": "curled forward and down; fingertip close to middle fingertip"
+    },
+    "pinky": {
+      "mcp": "flexed",
+      "pip": "flexed",
+      "dip": "slightly_flexed",
+      "abduction": "slightly_adducted",
+      "tipPosition": "curled forward and down; fingertip close to ring fingertip"
+    }
+  },
+  "thumb": {
+    "cmc": "abducted",
+    "mcp": "extended",
+    "ip": "slightly_flexed_to_near_extended",
+    "position": "extended out to the side (right side of image), separated from the curled finger cluster",
+    "tipDirection": "upward_right"
+  },
+  "overallHandshape": {
+    "typeDescription": "four fingers curled into a forward/downward claw-like curve with fingertips clustered together; thumb extended laterally away from the fingers",
+    "tension": "moderate"
+  }
+}
+
+Hand goes back to the initial all fingers naturally spread, relaxed open hand.
