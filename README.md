@@ -19,6 +19,10 @@ Drop this `site\` folder **inside** your project root so it sits next to
 ```
 C:\Users\User\Desktop\FYP ASL\
 ├── Videos\            (500 .mp4)
+    ├── Kling 3.0       (125 Videos)
+    ├── Seedance        (125 Videos)
+    ├── Veo             (125 Videos)
+    ├── Wan             (125 Videos)
 ├── Prompts\           (125 .txt)
 └── site\              <-- this folder
     ├── build_db.py
@@ -34,6 +38,9 @@ C:\Users\User\Desktop\FYP ASL\
 
 If you keep it somewhere else, open `build_db.py` and `app.py` and set
 `ROOT` to the full path of your `FYP ASL` folder.
+
+The video dataset naming convention can be seen as:
+{T2V}_{VLM}_{Strategy}_{Class}
 
 ---
 
